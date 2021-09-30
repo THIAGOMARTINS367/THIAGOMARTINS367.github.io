@@ -5,6 +5,103 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
+    <style>
+
+        @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+        body {
+            background-color: rgb(15, 76, 92);
+        }
+
+        .nome {
+            color: white;
+            font-family: 'Roboto', sans-serif;
+            font-size: 30px;
+            text-align: center;
+        }
+
+        .foto{
+            text-align: center;
+        }
+
+        img {
+            border-radius: 100px;
+        }
+
+        li {
+            line-height: 25px;
+        }
+
+        #strong-descricao{
+            margin-bottom: 50px;
+        }
+
+        .center{
+            text-align: center;
+        }
+
+        .texto {
+            padding: 10px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            background-color: rgb(255, 188, 66);
+            border-radius: 10px;
+        }
+
+        .altura-titulos {
+            height: 15px;
+        }
+
+        .texto-habilidades {
+            padding: 10px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            background-color: rgb(255, 188, 66);
+            border-radius: 10px;
+        }
+
+        .texto-div{
+            margin: 0 auto 0 auto;
+            width: 500px;
+        }
+
+        .canais-externos {
+            padding: 10px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            background-color: rgb(219, 58, 52);
+            border-radius: 10px;
+        }
+
+        #github {
+            text-decoration: none;
+            padding: 5px;
+            border-radius: 5px;
+            font-weight: 600;
+            color: rgb(255, 255, 255);
+            box-shadow: 0px 0px 3px black;
+            background-color: rgb(50, 48, 49);
+        }
+
+        #github:hover {
+            background-color: rgb(140, 198, 255);
+        }
+
+        #linkedin {
+            text-decoration: none;
+            padding: 5px;
+            border-radius: 5px;
+            font-weight: 600;
+            color: rgb(255, 255, 255);
+            box-shadow: 0px 0px 3px black;
+            background-color: rgb(0, 93, 187);
+        }
+
+        #linkedin:hover {
+            background-color: rgb(140, 198, 255);
+        }
+
+        
+
+    </style>
+
     <title>Sobre - THIAGO MARTINS</title>
 
 </head>
@@ -21,52 +118,76 @@
 
     <br>
 
-    <p>
+    <p class="nome">
         <strong>Thiago Diória Araujo Martins</strong>
     </p>
 
     <p>
-        <img src="MySelf.jpg" alt="Foto de Thiago" id="foto-Thiago">
+        <div class="foto">
+            <img src="MySelf.jpg" alt="Foto de Thiago" id="foto-Thiago">
+        </div>
     </p>
 
-    <p id="descricao">
-        Sou apaixonado por Tecnologia, desenvolvimento e Finanças. <br>
-        Focado em me tornar um futuro DEV de sucesso. <br>
-        <br>
-        Cachoeiro de Itapemirim - ES.
-    </p>
+    <div class="texto-div">
+
+            <p class="texto center altura-titulos"><strong>DESCRIÇÃO</strong></p>
+
+            <p class="texto center">
+                Sou apaixonado por Tecnologia, desenvolvimento e Finanças. <br>
+                Focado em me tornar um futuro DEV de sucesso. <br>
+                <br>
+                Cachoeiro de Itapemirim - ES.
+            </p>
+    </div>
+
+    <br> <br> <br>
+
+    <div class="texto-div">
+
+        <p class="texto center altura-titulos"><strong>HABILIDADES QUE MAIS ME ORGULHO</strong></p>
+
+        <p id="habilidades-orgulho">
+
+            <div class="texto-habilidades">
+                <ul>
+                    <li>Comprometimento</li>
+                    <li>Resiliência</li>
+                    <li>Colaboração</li>
+                </ul>
+            </div>
+        </p>
+    </div>
+
+    <br> <br> <br>
+
+    <div class="texto-div">
+        <p class="texto center altura-titulos"><strong>OUTRAS HABILIDADES</strong></p>
+
+        <p id="outras-habilidades">
+            
+            <div class="texto-habilidades">
+                <ul>
+                    <li>Codagem Iniciante</li>
+                    <li>Google Planilhas - Nível Intermediário</li>
+                    <li>Git</li>
+                    <li>Gestão Administrativa</li>
+                    <li>Gestão de Pessoas com Liderança</li>
+                    <li>Comunicação Empresarial</li>
+                </ul>
+            </div>
+        </p>
+    </div>
 
     <br>
 
-    <p id="habilidades-orgulho">
-        <strong>Habilidades que mais me orgulho:</strong>
-
-        <ul>
-            <li>Comprometimento</li>
-            <li>Resiliência</li>
-            <li>Colaboração</li>
-        </ul>
-    </p>
-
-    <br>
-
-    <p id="outras-habilidades">
-        <strong>Outras Habilidades:</strong>
-
-        <ul>
-            <li>Codagem Iniciante (Por causa de um sistema que fiz na finalização do Técnico)</li>
-            <li>Google Planilhas - Nível Intermediário</li>
-            <li>Git</li>
-            <li>Gestão Administrativa</li>
-            <li>Gestão de Pessoas com Liderança</li>
-            <li>Comunicação Empresarial</li>
-        </ul>
-    </p>
-
-    <p id="links-externos">
-        <a href="https://github.com/THIAGOMARTINS367" target="_blank">GitHub</a>
-        <a href="https://www.linkedin.com/in/thiago-martins-bb8b7b221" target="_blank">Linkedin</a>
-    </p>
+    <div class="texto-div">
+        <div class="center">
+            <p id="links-externos" class="canais-externos">
+                <a href="https://github.com/THIAGOMARTINS367" target="_blank" id="github">GitHub</a>
+                <a href="https://www.linkedin.com/in/thiago-martins-bb8b7b221" target="_blank" id="linkedin">Linkedin</a>
+            </p>
+        </div>
+    </div>
 
     <br> <br>
 
