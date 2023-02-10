@@ -1,0 +1,35 @@
+.section-profile {
+  width: 100%;
+  background-color: brown;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.div-description {
+  background-color: blue;
+  display: inline-block;
+  width: 50%;
+}
+
+.p-description {
+  font-size: 14pt;
+  font-weight: 500;
+  color: #fff;
+  text-align: justify;
+  font-family: 'Nunito', sans-serif;
+}
+
+.section-informations {
+  display: inline-block;
+  background-color: yellow;
+  /* width: 100%; */
+}
+
+.div-profile-icons {
+  display: inline-block;
+}
+
+.profile-icons {
+  width: 40px;
+}
