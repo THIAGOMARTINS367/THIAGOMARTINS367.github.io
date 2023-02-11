@@ -23,8 +23,83 @@
     ]
   },
   "projectsSection": {
-    "description": "Aqui estão alguns dos meus projetos que desenvolvi",
+    "title": "Projetos",
     "projects": [
+      {
+        "image": "https://miro.medium.com/v2/resize:fit:720/format:webp/1*xDi2csEAWxu95IEkaNdFUQ.png",
+        "title": "App de Receitas",
+        "description": "Projeto de desenvolvimento de um App de Receitas com filtros de busca, acompanhamento de receitas em progresso e receitas favoritas. 🧑‍🍳 🍲 🍰 🥐",
+        "technologies": [
+          "ReactJS",
+          "React Testing Library",
+          "Context API",
+          "JSX",
+          "JavaScript",
+          "CSS3"
+        ],
+        "repository": "https://github.com/thiagomartins367/Trybe-project-recipes-app",
+        "url": "https://thiagomartins367.github.io/Trybe-project-recipes-app"
+      },
+      {
+        "image": "https://miro.medium.com/v2/resize:fit:720/format:webp/1*xDi2csEAWxu95IEkaNdFUQ.png",
+        "title": "App de Receitas",
+        "description": "Projeto de desenvolvimento de um App de Receitas com filtros de busca, acompanhamento de receitas em progresso e receitas favoritas. 🧑‍🍳 🍲 🍰 🥐",
+        "technologies": [
+          "ReactJS",
+          "React Testing Library",
+          "Context API",
+          "JSX",
+          "JavaScript",
+          "CSS3"
+        ],
+        "repository": "https://github.com/thiagomartins367/Trybe-project-recipes-app",
+        "url": "https://thiagomartins367.github.io/Trybe-project-recipes-app"
+      },
+      {
+        "image": "https://miro.medium.com/v2/resize:fit:720/format:webp/1*xDi2csEAWxu95IEkaNdFUQ.png",
+        "title": "App de Receitas",
+        "description": "Projeto de desenvolvimento de um App de Receitas com filtros de busca, acompanhamento de receitas em progresso e receitas favoritas. 🧑‍🍳 🍲 🍰 🥐",
+        "technologies": [
+          "ReactJS",
+          "React Testing Library",
+          "Context API",
+          "JSX",
+          "JavaScript",
+          "CSS3"
+        ],
+        "repository": "https://github.com/thiagomartins367/Trybe-project-recipes-app",
+        "url": "https://thiagomartins367.github.io/Trybe-project-recipes-app"
+      },
+      {
+        "image": "https://miro.medium.com/v2/resize:fit:720/format:webp/1*xDi2csEAWxu95IEkaNdFUQ.png",
+        "title": "App de Receitas",
+        "description": "Projeto de desenvolvimento de um App de Receitas com filtros de busca, acompanhamento de receitas em progresso e receitas favoritas. 🧑‍🍳 🍲 🍰 🥐",
+        "technologies": [
+          "ReactJS",
+          "React Testing Library",
+          "Context API",
+          "JSX",
+          "JavaScript",
+          "CSS3"
+        ],
+        "repository": "https://github.com/thiagomartins367/Trybe-project-recipes-app",
+        "url": "https://thiagomartins367.github.io/Trybe-project-recipes-app"
+      },
+      {
+        "image": "https://miro.medium.com/v2/resize:fit:720/format:webp/1*xDi2csEAWxu95IEkaNdFUQ.png",
+        "title": "App de Receitas",
+        "description": "Projeto de desenvolvimento de um App de Receitas com filtros de busca, acompanhamento de receitas em progresso e receitas favoritas. 🧑‍🍳 🍲 🍰 🥐",
+        "technologies": [
+          "ReactJS",
+          "React Testing Library",
+          "Context API",
+          "JSX",
+          "JavaScript",
+          "CSS3"
+        ],
+        "repository": "https://github.com/thiagomartins367/Trybe-project-recipes-app",
+        "url": "https://thiagomartins367.github.io/Trybe-project-recipes-app"
+      },
       {
         "image": "https://miro.medium.com/v2/resize:fit:720/format:webp/1*xDi2csEAWxu95IEkaNdFUQ.png",
         "title": "App de Receitas",
