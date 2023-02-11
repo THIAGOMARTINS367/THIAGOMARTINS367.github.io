@@ -21,7 +21,7 @@ function Profile() {
           {
             profile.contacts.map((contactObj) => (
               <div key={ contactObj.name } className="div-profile-icons">
-                <a href={ contactObj.url } target="_blank">
+                <a href={ contactObj.url } target="_blank" rel="noreferrer">
                   <img className="profile-icons" src={ contactObj.image } alt={ contactObj.name } />
                 </a>
               </div>
