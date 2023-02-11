@@ -33,7 +33,7 @@ function Projects() {
                   <div className="div-button-repository">
                     {
                       projectObj.repository && (
-                        <a href="#" target="_blank">
+                        <a href={ projectObj.repository } target="_blank" rel="noreferrer">
                           <button type="button">Github</button>
                         </a>
                       )
@@ -42,7 +42,7 @@ function Projects() {
                   <div className="div-button-webpage">
                     {
                       projectObj.url && (
-                        <a href="#" target="_blank">
+                        <a href={ projectObj.url } target="_blank" rel="noreferrer">
                           <button type="button">Ver</button>
                         </a>
                       )
