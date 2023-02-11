@@ -8,7 +8,7 @@ function Profile() {
       <div className="div-description">
         { 
           description.paragraphs.map((paragraph) => (
-            <p className="p-description" dangerouslySetInnerHTML={{__html: paragraph}}></p>
+            <p key={ paragraph } className="p-description" dangerouslySetInnerHTML={{__html: paragraph}}></p>
           ))
         }
       </div>
