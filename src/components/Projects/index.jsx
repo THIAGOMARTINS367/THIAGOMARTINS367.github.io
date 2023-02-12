@@ -5,9 +5,6 @@ function Projects() {
   const { projectsSection } = data;
   return (
     <section className="section-projects">
-      <h2 className="h2-section-projects">
-        { projectsSection.title.toUpperCase() }
-      </h2>
       <section className="section-project-cards">
         {
           projectsSection.projects.map((projectObj) => (
