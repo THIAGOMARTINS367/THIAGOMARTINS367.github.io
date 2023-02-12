@@ -2,7 +2,7 @@ import data from '../../database/data.json';
 import './index.css';
 
 function Profile() {
-  const { profile, profile: { description } } = data;
+  const { profile } = data;
   return (
     <aside className="aside-profile">
       <section className="section-profile-info">
