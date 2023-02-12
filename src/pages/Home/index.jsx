@@ -1,12 +1,12 @@
-import Profile from "../../components/Profile";
-import Projects from "../../components/Projects";
+import MainCard from '../../components/MainCard';
+import Profile from '../../components/Profile';
 import './index.css';
 
 function Home() {
   return (
     <section className="section-home">
       <Profile />
-      <Projects />
+      <MainCard />
     </section>
   );
 }
