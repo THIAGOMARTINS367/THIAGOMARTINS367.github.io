@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600&display=swap');
+
+.article-main-card {
+  background-color: #1e1e1f;
+  width: 100%;
+  /* height: 100vh; */
+  display: block;
+  border-radius: 20px;
+  padding: 30px;
+  border: 1px solid #3a3a3a;
+  box-shadow: 0.001px 3px 5px 2px black;
+  z-index: 1;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.quick-animation {
+  animation: fade 0.5s ease backwards;
+}
+
+.content-render-section {
+  overflow-y: auto;
+  overflow-x: hidden;
+  /* background-color: green; */
+  height: 90.5%;
+}
+
+.content-render-section::-webkit-scrollbar {
+  width: 10px;
+}
+
+.content-render-section::-webkit-scrollbar-track{
+  background: transparent;
+  margin-bottom: 20px;
+}
+
+.content-render-section::-webkit-scrollbar-thumb {
+  background-color: #282829;
+  border: 1px solid #3a3a3a;
+  border-radius: 10px;
+}
+
+.section-nav-options-title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.h2-title {
+  color: white;
+  display: inline-block;
+  font-size: 32px;
+  font-family: 'Poppins', sans-serif;
+  margin: 0.001px;
+  font-weight: 600;
+}
+
+.bottom-hr-title {
+  color: #fed14d;
+  background-color: #fed14d;
+  width: 40px;
+  height: 5px;
+  border: none;
+  border-radius: 10px;
+  margin: 16px 1px;
+}
+
+.navbar-options {
+  display: inline-block;
+  background-color: #282829;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom-left-radius: 20px;
+  border-top-right-radius: 20px;
+  height: 60px;
+  border-left: 1px solid #313131;
+  border-bottom: 1px solid #313131;
+  position: absolute;
+  z-index: 2;
+  bottom: auto;
+  top: 51px;
+  right: 51px;
+  width: max-content;
+  border-radius: 0.001px 20px;
+  padding: 0.001px 20px;
+}
+
+.ul-list-navbar {
+  padding: 0.001px;
+}
+
+.ul-list-navbar li {
+  color: white;
+  list-style: none;
+  display: inline-block;
+  padding: 20px 50px;
+  margin: 0.001px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.ul-list-navbar li:nth-child(1) {
+  color: #fed14d;
+}
