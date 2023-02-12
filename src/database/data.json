@@ -1,22 +1,26 @@
 {
   "profile": {
+    "myName": "Thiago Martins",
+    "title": "Web Developer",
     "description": {
       "paragraphs": [
         "Minha trajetória no mundo do Desenvolvimento começa no meu curso técnico de informática, onde tive contato com algumas linguagens de programação (Python e C#). 👨‍🔧🖥️",
         "E na reta final deste curso quando tive que desenvolver um sistema com persistência em banco de dados utilizando: HTML, CSS, JavaScript, NodeJS e MySQL.",
         "Foi a partir daí que meu interesse pelo desenvolvimento de software se intensificou. 🔥",
-        "Mais a frente nessa trajetória encontrei a <a href='https://www.betrybe.com' target='_blank'>Trybe</a>, onde tive não só um 'contato', mas sim uma verdadeira imersão no mundo DEV desde o básico (Git & GitHub) até o avançado, que com muita prática nos mais diversos projetos e um ensino de qualidade pude aprender tudo que um DEV Full Stack precisa para atender as exigências de mercado."
+        "Mais a frente nessa trajetória encontrei a <a class='link-trybe' href='https://www.betrybe.com' target='_blank'>Trybe</a>, onde tive não só um contato, mas sim uma verdadeira imersão no mundo DEV desde o básico (Git & GitHub) até o avançado, que com muita prática nos mais diversos projetos e um ensino de qualidade pude aprender tudo que um DEV Full Stack precisa para atender as exigências de mercado."
       ]
     },
     "picture": "/assets/thiago-martins.jpg",
     "contacts": [
       {
         "name": "Linkedin",
+        "username": "in/thiago-dioria-martins",
         "url": "https://www.linkedin.com/in/thiago-dioria-martins",
         "image": "/assets/linkedin-icon.svg"
       },
       {
-        "name": "gmail",
+        "name": "Gmail",
+        "username": "thiago17thiago@gmail.com",
         "url": "https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=CllgCHrdkvCcBJMlzgzkXkFXcwlGpPhtSflRRQRWsCjWHwWgCPDbhxKRVwVSDbdnMnhPtMlDtnB",
         "image": "/assets/gmail-icon.svg"
       }
