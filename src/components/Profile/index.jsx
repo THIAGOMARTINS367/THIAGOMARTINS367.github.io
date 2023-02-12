@@ -1,35 +1,49 @@
-import './index.css';
 import data from '../../database/data.json';
+import './index.css';
 
 function Profile() {
   const { profile, profile: { description } } = data;
   return (
-    <section className="section-profile">
-      <div className="div-description">
-        { 
-          description.paragraphs.map((paragraph) => (
-            <p key={ paragraph } className="p-description" dangerouslySetInnerHTML={{__html: paragraph}}></p>
+    <aside className="aside-profile">
+      <section className="section-profile-info">
+        <div className="div-profile-picture">
+          <img src={ profile.picture } alt="imagem de perfil" />
+        </div>
+
+        <div className="profile-info-content">
+          <div className="div-profile-name">
+            { profile.myName }
+          </div>
+
+          <div className="div-profile-title">
+            { profile.title }
+          </div>
+        </div>
+      </section>
+
+      <div className="ul-profile-more-info">
+        {
+          profile.contacts.map((contactObj) => (
+            <div key={ contactObj.name } className="li-profile-icons">
+              <a href={ contactObj.url } target="_blank" rel="noreferrer">
+                <div className="div-img-icon">
+                  <img className="profile-icons" src={ contactObj.image } alt={ contactObj.name } />
+                </div>
+              </a>
+
+              <div className="div-contact-name">
+                <div>
+                  { contactObj.name.toUpperCase() }
+                </div>
+                <a href={ contactObj.url } target="_blank" rel="noreferrer">
+                  { contactObj.username }
+                </a>
+              </div>
+            </div>
           ))
         }
       </div>
-
-      <section className="section-informations">
-        <div>
-          <img src={ profile.picture } alt="imagem de perfil" />
-        </div>
-        <div>
-          {
-            profile.contacts.map((contactObj) => (
-              <div key={ contactObj.name } className="div-profile-icons">
-                <a href={ contactObj.url } target="_blank" rel="noreferrer">
-                  <img className="profile-icons" src={ contactObj.image } alt={ contactObj.name } />
-                </a>
-              </div>
-            ))
-          }
-        </div>
-      </section>
-    </section>
+    </aside>
   );
 }
 
