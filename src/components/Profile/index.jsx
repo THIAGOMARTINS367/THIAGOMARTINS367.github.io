@@ -9,12 +9,10 @@ function Profile() {
         <div className="div-profile-picture">
           <img src={ profile.picture } alt="imagem de perfil" />
         </div>
-
         <div className="profile-info-content">
           <div className="div-profile-name">
             { profile.myName }
           </div>
-
           <div className="div-profile-title">
             { profile.title }
           </div>
@@ -30,7 +28,6 @@ function Profile() {
                   <img className="profile-icons" src={ contactObj.image } alt={ contactObj.name } />
                 </div>
               </a>
-
               <div className="div-contact-name">
                 <div>
                   { contactObj.name.toUpperCase() }
