@@ -8,7 +8,7 @@ function Resume () {
       <section className="timeline">
         <div className="div-title-img-timeline">
           <div className="div-img-icon-education">
-            <img src="/assets/stacked-book.svg" />
+            <img src="/assets/stacked-book.svg" alt="stacked-book.svg" />
           </div>
           <h3 className="h3-title-timeline">
             Education
@@ -38,7 +38,7 @@ function Resume () {
       <section className="timeline">
         <div className="div-title-img-timeline">
           <div className="div-img-icon-experience">
-            <img src="/assets/user-settings.svg" />
+            <img src="/assets/user-settings.svg" alt="user-settings.svg" />
           </div>
           <h3 className="h3-title-timeline">
             Experience
