@@ -62,8 +62,7 @@
 }
 
 .bottom-hr-title {
-  color: #fed14d;
-  background-color: #fed14d;
+  background-color: #ffdb70;
   width: 40px;
   height: 5px;
   border: none;
@@ -109,5 +108,5 @@
 }
 
 .ul-list-navbar li:nth-child(1) {
-  color: #fed14d;
+  color: #ffdb70;
 }
