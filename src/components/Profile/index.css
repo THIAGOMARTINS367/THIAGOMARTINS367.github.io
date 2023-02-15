@@ -70,7 +70,6 @@
 .div-description {
   background-color: blue;
   display: inline-block;
-  /* width: 100%; */
   padding: 0.001px 20px;
 }
 
@@ -88,7 +87,6 @@
   margin: 30px 0.001px;
   border-top: 1px solid #3a3a3a;
   height: 100%;
-  /* width: 100%; */
   display: flex;
   flex-flow: column nowrap;
   justify-content: space-evenly;
