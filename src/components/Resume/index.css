@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600&display=swap');
+
+.section-resume {
+  color: white;
+  /* background-color: red; */
+}
+
+.timeline {
+  margin-bottom: 30px;
+}
+
+.div-title-img-timeline {
+  /* background-color: red; */
+  width: 100%;
+  height: 49px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 15px;
+}
+
+.div-img-icon-education, .div-img-icon-experience {
+  background-color: #1e1e1f;
+  border: 1px solid #3a3a3a;
+  width: 46px;
+  height: 46px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 2px 2px 3px 1px #131314;
+}
+
+.div-img-icon-education img {
+  width: 22px;
+}
+
+.div-img-icon-experience img {
+  width: 25px;
+}
+
+.h3-title-timeline {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.ul-list-timeline {
+  margin-top: 0.001px;
+  padding: 0.001px 30px 0.001px 15px;
+  z-index: 2;
+}
+
+.li-timeline-bottom-line-icon {
+  list-style: none;
+  width: 100%;
+  /* background-color: red; */
+}
+
+.li-timeline-bottom-line-icon div {
+  width: 1px;
+  height: 30px;
+  background-color: #3a3a3a;
+  margin-left: 11px;
+}
+
+.li-timeline-item {
+  /* background-color: red; */
+  list-style: none;
+  display: flex;
+  margin-left: 11px;
+  border-left: 1px solid #3a3a3a;
+  padding-bottom: 20px;
+}
+
+.li-timeline-item:nth-last-child(1) {
+  border: none;
+}
+
+.div-timeline-item-content {
+  margin-left: 30px;
+}
+
+.div-timeline-item-content p {
+  color: #d6d6d6;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 200;
+  font-size: 15px;
+  margin-top: 5px;
+  margin-bottom: 0.001px;
+  text-align: justify;
+}
+
+.item-timeline-period {
+  color: #ceb15a;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.div-timeline-item-content h4 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  margin: 0.001px;
+  margin-top: -4px;
+  padding: 0.001px;
+  display: block;
+}
+
+.div-timeline-item-marker {
+  background-color: #3a3a3a;
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  margin-left: -9px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.div-timeline-item-marker div {
+  background-color: #ffdb70;
+  width: 8px;
+  height: 8px;
+  border-radius: 100%;
+}
+
+.li-timeline-item:nth-last-child(1) .div-timeline-item-marker {
+  margin-left: -8px;
+}
+
+.link-ifes {
+  text-decoration: none;
+  color: #1b9705;
+  font-weight: 400;
+}
+
+.link-ifes:hover {
+  color: #698f62;
+  text-decoration: underline;
+}
