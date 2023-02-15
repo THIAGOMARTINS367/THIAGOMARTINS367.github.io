@@ -12,7 +12,6 @@ function About() {
           ))
         }
       </div>
-      
     </section>
   );
 }
