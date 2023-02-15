@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import About from '../About';
 import Projects from '../Projects';
+import Resume from '../Resume';
 import './index.css';
 
 function MainCard() {
@@ -26,7 +27,7 @@ function MainCard() {
             setAnimationClass('quick-animation');
             setcurrentComponent('about');
             if (optionSelected) optionSelected.style.color = 'white';
-            target.style.color = '#fed14d';
+            target.style.color = '#ffdb70';
             setOptionSelected(target);
             setTimeout(() => setAnimationClass(''), 500);
           } }
@@ -39,7 +40,7 @@ function MainCard() {
             setAnimationClass('quick-animation');
             setcurrentComponent('resume');
             if (optionSelected) optionSelected.style.color = 'white';
-            target.style.color = '#fed14d';
+            target.style.color = '#ffdb70';
             setOptionSelected(target);
             setTimeout(() => setAnimationClass(''), 500);
           } }
@@ -52,7 +53,7 @@ function MainCard() {
             setAnimationClass('quick-animation');
             setcurrentComponent('projects');
             if (optionSelected) optionSelected.style.color = 'white';
-            target.style.color = '#fed14d';
+            target.style.color = '#ffdb70';
             setOptionSelected(target);
             setTimeout(() => setAnimationClass(''), 500);
           } }
@@ -74,7 +75,7 @@ function MainCard() {
           currentComponent.includes('about') && (<About />)
         }
         {
-          currentComponent.includes('resume') && (null)
+          currentComponent.includes('resume') && (<Resume />)
         }
         {
           currentComponent.includes('projects') && (<Projects />)
