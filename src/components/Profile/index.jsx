@@ -19,16 +19,16 @@ function Profile() {
         </div>
       </section>
 
-      <div className="ul-profile-more-info">
+      <section className="section-profile-more-info">
         {
           profile.contacts.map((contactObj) => (
-            <div key={ contactObj.name } className="li-profile-icons">
+            <div key={ contactObj.name } className="div-profile-icon">
               <a href={ contactObj.url } target="_blank" rel="noreferrer">
                 <div className="div-img-icon">
                   <img className="profile-icons" src={ contactObj.image } alt={ contactObj.name } />
                 </div>
               </a>
-              <div className="div-contact-name">
+              <div className="div-profile-info">
                 <div>
                   { contactObj.name.toUpperCase() }
                 </div>
@@ -39,7 +39,26 @@ function Profile() {
             </div>
           ))
         }
-      </div>
+        {
+          profile.otherInformations.map((contactObj) => (
+            <div key={ contactObj.name } className="div-profile-icon">
+              <a href={ contactObj.url } target="_self" rel="noreferrer">
+                <div className="div-img-icon">
+                  <img className="profile-icons" src={ contactObj.image } alt={ contactObj.name } />
+                </div>
+              </a>
+              <div className="div-profile-info">
+                <div>
+                  { contactObj.name.toUpperCase() }
+                </div>
+                <a href={ contactObj.url } target="_self" rel="noreferrer">
+                  { contactObj.subtitle }
+                </a>
+              </div>
+            </div>
+          ))
+        }
+      </section>
     </aside>
   );
 }
