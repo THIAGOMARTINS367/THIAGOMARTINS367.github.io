@@ -24,6 +24,14 @@
         "url": "https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=CllgCHrdkvCcBJMlzgzkXkFXcwlGpPhtSflRRQRWsCjWHwWgCPDbhxKRVwVSDbdnMnhPtMlDtnB",
         "image": "/assets/gmail-icon.svg"
       }
+    ],
+    "otherInformations": [
+      {
+        "name": "Currículo",
+        "subtitle": "curriculo-thiago.pdf",
+        "url": "https://drive.google.com/u/0/uc?id=15fcSS9gDpnX9kRmLp7I6yzTQe1LLhuEI&export=download",
+        "image": "/assets/curriculum.svg"
+      }
     ]
   },
   "professional": {
@@ -54,9 +62,9 @@
     "title": "Projetos",
     "projects": [
       {
-        "image": "https://miro.medium.com/v2/resize:fit:720/format:webp/1*xDi2csEAWxu95IEkaNdFUQ.png",
-        "title": "App de Receitas",
-        "description": "Projeto de desenvolvimento de um App de Receitas com filtros de busca, acompanhamento de receitas em progresso e receitas favoritas. 🧑‍🍳 🍲 🍰 🥐",
+        "image": "/assets/projects-images/Captura de tela de 2023-02-16 10-08-25.png",
+        "title": "APP de Receitas",
+        "description": "⚠️ Resolução 360 x 640",
         "technologies": [
           "ReactJS",
           "React Testing Library",
@@ -69,76 +77,65 @@
         "url": "https://thiagomartins367.github.io/Trybe-project-recipes-app"
       },
       {
-        "image": "https://miro.medium.com/v2/resize:fit:720/format:webp/1*xDi2csEAWxu95IEkaNdFUQ.png",
-        "title": "App de Receitas",
-        "description": "Projeto de desenvolvimento de um App de Receitas com filtros de busca, acompanhamento de receitas em progresso e receitas favoritas. 🧑‍🍳 🍲 🍰 🥐",
+        "image": "/assets/projects-images/Captura de tela de 2023-02-16 10-08-25.png",
+        "title": "APP de Receitas",
+        "description": null,
         "technologies": [
           "ReactJS",
           "React Testing Library",
           "Context API",
           "JSX",
           "JavaScript",
-          "CSS3"
+          "CSS3",
+          "JavaScript"
         ],
         "repository": "https://github.com/thiagomartins367/Trybe-project-recipes-app",
         "url": "https://thiagomartins367.github.io/Trybe-project-recipes-app"
       },
       {
-        "image": "https://miro.medium.com/v2/resize:fit:720/format:webp/1*xDi2csEAWxu95IEkaNdFUQ.png",
-        "title": "App de Receitas",
-        "description": "Projeto de desenvolvimento de um App de Receitas com filtros de busca, acompanhamento de receitas em progresso e receitas favoritas. 🧑‍🍳 🍲 🍰 🥐",
+        "image": "/assets/projects-images/Captura de tela de 2023-02-16 10-08-25.png",
+        "title": "APP de Receitas",
+        "description": "⚠️ Resolução 360 x 640",
         "technologies": [
           "ReactJS",
           "React Testing Library",
           "Context API",
           "JSX",
           "JavaScript",
-          "CSS3"
+          "CSS3",
+          "JavaScript"
         ],
         "repository": "https://github.com/thiagomartins367/Trybe-project-recipes-app",
         "url": "https://thiagomartins367.github.io/Trybe-project-recipes-app"
       },
       {
-        "image": "https://miro.medium.com/v2/resize:fit:720/format:webp/1*xDi2csEAWxu95IEkaNdFUQ.png",
-        "title": "App de Receitas",
-        "description": "Projeto de desenvolvimento de um App de Receitas com filtros de busca, acompanhamento de receitas em progresso e receitas favoritas. 🧑‍🍳 🍲 🍰 🥐",
+        "image": "/assets/projects-images/Captura de tela de 2023-02-16 10-08-25.png",
+        "title": "APP de Receitas",
+        "description": "⚠️ Resolução 360 x 640",
         "technologies": [
           "ReactJS",
           "React Testing Library",
           "Context API",
           "JSX",
           "JavaScript",
-          "CSS3"
+          "CSS3",
+          "JavaScript"
         ],
         "repository": "https://github.com/thiagomartins367/Trybe-project-recipes-app",
         "url": "https://thiagomartins367.github.io/Trybe-project-recipes-app"
       },
       {
-        "image": "https://miro.medium.com/v2/resize:fit:720/format:webp/1*xDi2csEAWxu95IEkaNdFUQ.png",
-        "title": "App de Receitas",
-        "description": "Projeto de desenvolvimento de um App de Receitas com filtros de busca, acompanhamento de receitas em progresso e receitas favoritas. 🧑‍🍳 🍲 🍰 🥐",
+        "image": "/assets/projects-images/Captura de tela de 2023-02-16 10-08-25.png",
+        "title": "APP de Receitas",
+        "description": "⚠️ Resolução 360 x 640",
         "technologies": [
           "ReactJS",
           "React Testing Library",
           "Context API",
           "JSX",
           "JavaScript",
-          "CSS3"
-        ],
-        "repository": "https://github.com/thiagomartins367/Trybe-project-recipes-app",
-        "url": "https://thiagomartins367.github.io/Trybe-project-recipes-app"
-      },
-      {
-        "image": "https://miro.medium.com/v2/resize:fit:720/format:webp/1*xDi2csEAWxu95IEkaNdFUQ.png",
-        "title": "App de Receitas",
-        "description": "Projeto de desenvolvimento de um App de Receitas com filtros de busca, acompanhamento de receitas em progresso e receitas favoritas. 🧑‍🍳 🍲 🍰 🥐",
-        "technologies": [
-          "ReactJS",
-          "React Testing Library",
-          "Context API",
-          "JSX",
-          "JavaScript",
-          "CSS3"
+          "CSS3",
+          "JavaScript"
         ],
         "repository": "https://github.com/thiagomartins367/Trybe-project-recipes-app",
         "url": "https://thiagomartins367.github.io/Trybe-project-recipes-app"
