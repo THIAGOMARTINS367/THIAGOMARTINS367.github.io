@@ -73,54 +73,50 @@
   padding: 0.001px 20px;
 }
 
-.p-description {
-  font-size: 14pt;
-  font-weight: 500;
-  color: #fff;
-  text-align: justify;
-  font-family: 'Nunito', sans-serif;
-}
-
-.ul-profile-more-info {
+.section-profile-more-info {
   /* background-color: yellow; */
-  padding: 0.001px;
-  margin: 30px 0.001px;
+  padding-top: 30px;
+  margin-top: 30px;
   border-top: 1px solid #3a3a3a;
   height: 100%;
   display: flex;
   flex-flow: column nowrap;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
-.li-profile-icons {
+.div-profile-icon {
   display: flex;
   align-items: center;
   text-decoration: none;
-  margin: 20px 0.001px;
 }
 
-.div-img-icon, .div-contact-name {
+.div-img-icon, .div-profile-info {
   display: inline-block;
 }
 
-.div-contact-name {
+.div-profile-info {
   display: inline-block;
   margin-left: 10px;
-  font-size: 12px;
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Poppins', sans-serif;
   height: 100%;
 }
 
-.div-contact-name div {
+.div-profile-info div {
   color: #D6D6D6B2;
   margin-bottom: 5px;
+  font-size: 12px;
 }
 
-.div-contact-name a {
+.div-profile-info a {
   font-size: 14px;
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Poppins', sans-serif;
   text-decoration: none;
   color: rgb(0, 119, 182);
+}
+
+.div-profile-info a:hover {
+  color: rgb(105, 174, 208);
+  text-decoration: underline;
 }
 
 .div-img-icon img {
@@ -128,6 +124,6 @@
   height: 30px;
 }
 
-.profile-icons {
+.img-profile-icon {
   width: 40px;
 }
