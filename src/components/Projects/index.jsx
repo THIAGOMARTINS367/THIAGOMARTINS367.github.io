@@ -8,7 +8,7 @@ function Projects() {
       <section className="section-project-cards">
         {
           projectsSection.projects.map((projectObj) => (
-            <div key={ projectObj.title } className="div-project-card">
+            <section key={ projectObj.title } className="div-project-card">
               <div className="div-img-project-card">
                 <img className="img-project-card" src={ projectObj.image } alt={ projectObj.title } />
               </div>
@@ -27,27 +27,27 @@ function Projects() {
                   <p className="p-project-card-description">{ projectObj.description }</p>
                 </div>
                 <div className="div-card-buttons">
-                  <div className="div-button-repository">
-                    {
-                      projectObj.repository && (
+                  {
+                    projectObj.repository && (
+                      <div className="div-button-repository">
                         <a href={ projectObj.repository } target="_blank" rel="noreferrer">
                           <button type="button">Github</button>
                         </a>
-                      )
-                    }
-                  </div>
-                  <div className="div-button-webpage">
-                    {
-                      projectObj.url && (
+                      </div>
+                    )
+                  }
+                  {
+                    projectObj.url && (
+                      <div className="div-button-webpage">
                         <a href={ projectObj.url } target="_blank" rel="noreferrer">
                           <button type="button">Ver</button>
                         </a>
-                      )
-                    }
-                  </div>
+                      </div>
+                    )
+                  }
                 </div>
               </section>
-            </div>
+            </section>
           ))
         }
       </section>
