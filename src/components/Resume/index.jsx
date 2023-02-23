@@ -3,6 +3,8 @@ import './index.css';
 
 function Resume () {
   const { professional } = data;
+  professional.education.sort((a, b) => b.start - a.start);
+  professional.experience.sort((a, b) => b.start - a.start);
   return (
     <section className="section-resume">
       <section className="timeline">
