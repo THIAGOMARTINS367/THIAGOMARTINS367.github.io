@@ -6,13 +6,6 @@
   height: 556px;
 }
 
-.h2-section-projects {
-  width: 100%;
-  margin: 0.001px;
-  padding: 10px;
-  font-family: 'Poppins', sans-serif;
-}
-
 .section-project-cards {
   display: flex;
   flex-flow: row wrap;
