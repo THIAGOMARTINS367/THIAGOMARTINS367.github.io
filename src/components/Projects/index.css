@@ -43,6 +43,7 @@
 
 .section-project-card-information {
   padding: 1px 20px 20px 20px;
+  border-top: 1px solid #3a3a3a;
 }
 
 .h3-project-card-title {
