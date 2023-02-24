@@ -62,7 +62,7 @@
     "title": "Projetos",
     "projects": [
       {
-        "image": "/assets/projects-images/Captura de tela de 2023-02-16 10-08-25.png",
+        "image": "/assets/projects-images/recipes-app.png",
         "title": "APP de Receitas",
         "description": "⚠️ Resolução 360 x 640",
         "technologies": [
@@ -77,68 +77,23 @@
         "url": "https://thiagomartins367.github.io/Trybe-project-recipes-app"
       },
       {
-        "image": "/assets/projects-images/Captura de tela de 2023-02-16 10-08-25.png",
-        "title": "APP de Receitas",
+        "image": "/assets/projects-images/trybe-futebol-clube.png",
+        "title": "Futebol Clube",
         "description": null,
         "technologies": [
-          "ReactJS",
-          "React Testing Library",
-          "Context API",
-          "JSX",
+          "NodeJS",
+          "TypeScript",
           "JavaScript",
-          "CSS3",
-          "JavaScript"
-        ],
-        "repository": "https://github.com/thiagomartins367/Trybe-project-recipes-app",
-        "url": "https://thiagomartins367.github.io/Trybe-project-recipes-app"
-      },
-      {
-        "image": "/assets/projects-images/Captura de tela de 2023-02-16 10-08-25.png",
-        "title": "APP de Receitas",
-        "description": "⚠️ Resolução 360 x 640",
-        "technologies": [
-          "ReactJS",
-          "React Testing Library",
-          "Context API",
+          "Sequelize",
+          "Jest",
+          "Docker",
           "JSX",
-          "JavaScript",
-          "CSS3",
-          "JavaScript"
-        ],
-        "repository": "https://github.com/thiagomartins367/Trybe-project-recipes-app",
-        "url": "https://thiagomartins367.github.io/Trybe-project-recipes-app"
-      },
-      {
-        "image": "/assets/projects-images/Captura de tela de 2023-02-16 10-08-25.png",
-        "title": "APP de Receitas",
-        "description": "⚠️ Resolução 360 x 640",
-        "technologies": [
           "ReactJS",
-          "React Testing Library",
           "Context API",
-          "JSX",
-          "JavaScript",
-          "CSS3",
-          "JavaScript"
+          "CSS3"
         ],
-        "repository": "https://github.com/thiagomartins367/Trybe-project-recipes-app",
-        "url": "https://thiagomartins367.github.io/Trybe-project-recipes-app"
-      },
-      {
-        "image": "/assets/projects-images/Captura de tela de 2023-02-16 10-08-25.png",
-        "title": "APP de Receitas",
-        "description": "⚠️ Resolução 360 x 640",
-        "technologies": [
-          "ReactJS",
-          "React Testing Library",
-          "Context API",
-          "JSX",
-          "JavaScript",
-          "CSS3",
-          "JavaScript"
-        ],
-        "repository": "https://github.com/thiagomartins367/Trybe-project-recipes-app",
-        "url": "https://thiagomartins367.github.io/Trybe-project-recipes-app"
+        "repository": "https://github.com/thiagomartins367/Trybe-project-futebol-clube",
+        "url": null
       }
     ]
   }
