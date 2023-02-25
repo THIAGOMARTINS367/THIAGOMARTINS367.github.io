@@ -20,7 +20,7 @@ function Resume () {
           <li className="li-timeline-bottom-line-icon"><div></div></li>
           {
             professional.education.map((itemObj) => (
-              <li className="li-timeline-item">
+              <li className="li-timeline-item" key={ itemObj.title }>
                 <div className="div-marker-separator">
                   <div className="div-timeline-item-marker">
                     <div></div>
@@ -50,7 +50,7 @@ function Resume () {
           <li className="li-timeline-bottom-line-icon"><div></div></li>
           {
             professional.experience.map((itemObj) => (
-              <li className="li-timeline-item">
+              <li className="li-timeline-item" key={ itemObj.title }>
                 <div className="div-marker-separator">
                   <div className="div-timeline-item-marker">
                     <div></div>
