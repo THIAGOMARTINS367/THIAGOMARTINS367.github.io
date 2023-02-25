@@ -62,8 +62,8 @@
     "title": "Projetos",
     "projects": [
       {
-        "image": "/assets/projects-images/recipes-app.png",
         "title": "APP de Receitas",
+        "image": "/assets/projects-images/recipes-app.png",
         "description": "⚠️ Resolução 360 x 640",
         "technologies": [
           "ReactJS",
@@ -77,8 +77,8 @@
         "url": "https://thiagomartins367.github.io/Trybe-project-recipes-app"
       },
       {
-        "image": "/assets/projects-images/trybe-futebol-clube.png",
         "title": "Futebol Clube",
+        "image": "/assets/projects-images/trybe-futebol-clube.png",
         "description": null,
         "technologies": [
           "NodeJS",
@@ -96,8 +96,8 @@
         "url": "https://www.linkedin.com/posts/thiago-dioria-martins_desenvolvimentoweb-dev-programador-activity-6956735587718447104--Q0A?utm_source=share&utm_medium=member_desktop"
       },
       {
-        "image": "/assets/projects-images/starwars-planets-search.svg",
         "title": "Star Wars Planets Search",
+        "image": "/assets/projects-images/starwars-planets-search.svg",
         "description": null,
         "technologies": [
           "ReactJS",
