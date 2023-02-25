@@ -94,6 +94,20 @@
         ],
         "repository": "https://github.com/thiagomartins367/Trybe-project-futebol-clube",
         "url": null
+      },
+      {
+        "image": "/assets/projects-images/starwars-planets-search.svg",
+        "title": "Star Wars Planets Search",
+        "description": null,
+        "technologies": [
+          "ReactJS",
+          "Context API",
+          "JSX",
+          "JavaScript",
+          "CSS3"
+        ],
+        "repository": "https://github.com/thiagomartins367/Trybe-project-starwars-planets-search",
+        "url": "https://thiagomartins367.github.io/Trybe-project-starwars-planets-search"
       }
     ]
   }
