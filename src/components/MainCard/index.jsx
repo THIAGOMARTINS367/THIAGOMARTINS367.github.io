@@ -12,7 +12,6 @@ function MainCard() {
   useEffect(() => {
     setTimeout(() => setAnimationClass(''), 500);
     const initialOption = document.getElementById('li-about');
-    console.log(initialOption.attributes.value.value);
     setOptionSelected(initialOption);
   }, []);
 
