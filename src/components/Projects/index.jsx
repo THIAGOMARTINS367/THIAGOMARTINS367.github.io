@@ -23,9 +23,7 @@ function Projects() {
                     }
                   </div>
                 </div>
-                <div>
-                  <p className="p-project-card-description">{ projectObj.description }</p>
-                </div>
+                <p className="p-project-card-description">{ projectObj.description }</p>
                 <div className="div-card-buttons">
                   {
                     projectObj.repository && (
