@@ -108,6 +108,28 @@
         ],
         "repository": "https://github.com/thiagomartins367/Trybe-project-starwars-planets-search",
         "url": "https://thiagomartins367.github.io/Trybe-project-starwars-planets-search"
+      },
+      {
+        "title": "Servidor Web com Docker",
+        "image": "/assets/projects-images/web-server-docker.png",
+        "description": null,
+        "technologies": [
+          "ReactJS",
+          "Context API",
+          "JavaScript",
+          "JSX",
+          "CSS3",
+          "NodeJS",
+          "ExpressJS",
+          "Jest",
+          "Docker",
+          "MySQL",
+          "Traefik",
+          "Portainer",
+          "ESLint"
+        ],
+        "repository": "https://github.com/thiagomartins367/traefik-docker/tree/thiago-martins-app-todo-list",
+        "url": "https://www.linkedin.com/posts/thiago-dioria-martins_docker-infrastructure-informaertica-activity-7015760278059388928-cRVl?utm_source=share&utm_medium=member_desktop"
       }
     ]
   }
