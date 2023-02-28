@@ -10,7 +10,11 @@ function Projects() {
           projectsSection.projects.map((projectObj) => (
             <section key={ projectObj.title } className="div-project-card">
               <div className="div-img-project-card">
-                <img className="img-project-card" src={ projectObj.image } alt={ projectObj.title } />
+                <img
+                  className="img-project-card"
+                  src={ projectObj.image }
+                  alt={ projectObj.title }
+                />
               </div>
               <section className="section-project-card-information">
                 <div>
@@ -18,7 +22,12 @@ function Projects() {
                   <div className="div-project-card-technologies">
                     {
                       projectObj.technologies.map((technology) => (
-                        <div key={ technology } className="div-project-card-technology">{ technology }</div>
+                        <div
+                          key={ technology }
+                          className="div-project-card-technology"
+                        >
+                          { technology }
+                        </div>
                       ))
                     }
                   </div>
@@ -28,7 +37,11 @@ function Projects() {
                   {
                     projectObj.repository && (
                       <div className="div-button-repository">
-                        <a href={ projectObj.repository } target="_blank" rel="noreferrer">
+                        <a
+                          href={ projectObj.repository }
+                          target="_blank"
+                          rel="noreferrer"
+                        >
                           <button type="button">Github</button>
                         </a>
                       </div>
