@@ -8,7 +8,7 @@ function About() {
       <div className="div-about-description">
         {
           description.paragraphs.map((paragraph) => (
-            <p key={ paragraph } dangerouslySetInnerHTML={{ __html: paragraph }}></p>
+            <p key={ paragraph } dangerouslySetInnerHTML={ { __html: paragraph } } />
           ))
         }
       </div>
