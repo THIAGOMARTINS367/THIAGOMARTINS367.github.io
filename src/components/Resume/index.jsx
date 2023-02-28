@@ -28,7 +28,9 @@ function Resume() {
                 </div>
                 <div className="div-timeline-item-content">
                   <h4>{ itemObj.title }</h4>
-                  <span className="item-timeline-period">{ `${itemObj.start} — ${itemObj.end}` }</span>
+                  <span className="item-timeline-period">
+                    { `${itemObj.start} — ${itemObj.end}` }
+                  </span>
                   <p dangerouslySetInnerHTML={ { __html: itemObj.description } } />
                 </div>
               </li>
