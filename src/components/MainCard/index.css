@@ -96,17 +96,22 @@
 }
 
 .ul-list-navbar li {
-  color: white;
   list-style: none;
   display: inline-block;
-  padding: 20px 50px;
-  margin: 0.001px;
+}
+
+.ul-list-navbar button {
+  background-color: transparent;
+  color: white;
+  border: none;
+  padding: 18px 50px;
+  width: 100%;
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
   font-size: 16px;
   cursor: pointer;
 }
 
-.ul-list-navbar li:nth-child(1) {
+.ul-list-navbar li:nth-child(1) button {
   color: #ffdb70;
 }
