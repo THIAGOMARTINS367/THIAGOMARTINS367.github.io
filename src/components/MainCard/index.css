@@ -2,20 +2,21 @@
 
 .article-main-card {
   background-color: #1e1e1f;
-  width: 100%;
-  /* height: 100vh; */
-  display: block;
-  border-radius: 20px;
-  padding: 30px;
   border: 1px solid #3a3a3a;
+  border-radius: 20px;
   box-shadow: 0.001px 3px 5px 2px black;
+  display: block;
+  padding: 30px;
+  width: 100%;
   z-index: 1;
 }
 
 @keyframes fade {
+
   0% {
     opacity: 0;
   }
+
   100% {
     opacity: 1;
   }
@@ -26,17 +27,16 @@
 }
 
 .content-render-section {
-  overflow-y: auto;
-  overflow-x: hidden;
-  /* background-color: green; */
   height: 90.5%;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 
 .content-render-section::-webkit-scrollbar {
   width: 10px;
 }
 
-.content-render-section::-webkit-scrollbar-track{
+.content-render-section::-webkit-scrollbar-track {
   background: transparent;
   margin-bottom: 20px;
 }
@@ -55,40 +55,39 @@
 .h2-title {
   color: white;
   display: inline-block;
+  font-family: 'Poppins' , sans-serif;
   font-size: 32px;
-  font-family: 'Poppins', sans-serif;
-  margin: 0.001px;
   font-weight: 600;
+  margin: 0.001px;
 }
 
 .bottom-hr-title {
   background-color: #ffdb70;
-  width: 40px;
-  height: 5px;
   border: none;
   border-radius: 10px;
+  height: 5px;
   margin: 16px 1px;
+  width: 40px;
 }
 
 .navbar-options {
-  display: inline-block;
-  background-color: #282829;
-  display: flex;
-  justify-content: center;
   align-items: center;
+  background-color: #282829;
+  border-bottom: 1px solid #313131;
+  border-left: 1px solid #313131;
+  border-radius: 0.001px 20px;
   border-bottom-left-radius: 20px;
   border-top-right-radius: 20px;
-  height: 60px;
-  border-left: 1px solid #313131;
-  border-bottom: 1px solid #313131;
-  position: absolute;
-  z-index: 2;
   bottom: auto;
-  top: 51px;
-  right: 51px;
-  width: max-content;
-  border-radius: 0.001px 20px;
+  display: flex;
+  height: 60px;
+  justify-content: center;
   padding: 0.001px 20px;
+  position: absolute;
+  right: 51px;
+  top: 51px;
+  width: max-content;
+  z-index: 2;
 }
 
 .ul-list-navbar {
@@ -96,22 +95,22 @@
 }
 
 .ul-list-navbar li {
-  list-style: none;
   display: inline-block;
+  list-style: none;
 }
 
 .ul-list-navbar button {
   background-color: transparent;
-  color: white;
   border: none;
+  color: white;
+  cursor: pointer;
+  font-family: 'Poppins' , sans-serif;
+  font-size: 16px;
+  font-weight: 400;
   padding: 18px 50px;
   width: 100%;
-  font-family: 'Poppins', sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  cursor: pointer;
 }
 
-.ul-list-navbar li:nth-child(1) button {
+.ul-list-navbar li:nth-child( 1 ) button {
   color: #ffdb70;
 }
