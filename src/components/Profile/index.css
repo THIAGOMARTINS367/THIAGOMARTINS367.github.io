@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;600&display=swap');
 
 .aside-profile {
-  background-color: rgba(30, 30, 31, 255);
+  background-color: #1e1e1f;
   border: 1px solid #3a3a3a;
   border-radius: 20px;
   box-shadow: 0.001px 3px 5px 2px black;
@@ -94,14 +94,14 @@
 }
 
 .div-profile-info a {
-  color: rgb(0, 119, 182);
+  color: #0077b6;
   font-family: 'Poppins' , sans-serif;
   font-size: 14px;
   text-decoration: none;
 }
 
 .div-profile-info a:hover {
-  color: rgb(105, 174, 208);
+  color: #69aed0;
   text-decoration: underline;
 }
 
