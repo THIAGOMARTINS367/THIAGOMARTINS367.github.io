@@ -25,7 +25,11 @@ function Profile() {
             <div key={ contactObj.name } className="div-profile-icon">
               <a href={ contactObj.url } target="_blank" rel="noreferrer">
                 <div className="div-img-icon">
-                  <img className="profile-icons" src={ contactObj.image } alt={ contactObj.name } />
+                  <img
+                    className="profile-icons"
+                    src={ contactObj.image }
+                    alt={ contactObj.name }
+                  />
                 </div>
               </a>
               <div className="div-profile-info">
@@ -44,7 +48,11 @@ function Profile() {
             <div key={ contactObj.name } className="div-profile-icon">
               <a href={ contactObj.url } target="_self" rel="noreferrer">
                 <div className="div-img-icon">
-                  <img className="profile-icons" src={ contactObj.image } alt={ contactObj.name } />
+                  <img
+                    className="profile-icons"
+                    src={ contactObj.image }
+                    alt={ contactObj.name }
+                  />
                 </div>
               </a>
               <div className="div-profile-info">
