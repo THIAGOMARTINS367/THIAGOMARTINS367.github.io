@@ -1,7 +1,7 @@
 import data from '../../database/data.json';
 import './index.css';
 
-function Resume () {
+function Resume() {
   const { professional } = data;
   professional.education.sort((a, b) => b.start - a.start);
   professional.experience.sort((a, b) => b.start - a.start);
@@ -17,19 +17,19 @@ function Resume () {
           </h3>
         </div>
         <ul className="ul-list-timeline">
-          <li className="li-timeline-bottom-line-icon"><div></div></li>
+          <li className="li-timeline-bottom-line-icon"><div /></li>
           {
             professional.education.map((itemObj) => (
               <li className="li-timeline-item" key={ itemObj.title }>
                 <div className="div-marker-separator">
                   <div className="div-timeline-item-marker">
-                    <div></div>
+                    <div />
                   </div>
                 </div>
                 <div className="div-timeline-item-content">
                   <h4>{ itemObj.title }</h4>
-                  <span className="item-timeline-period">{ itemObj.start } — { itemObj.end }</span>
-                  <p dangerouslySetInnerHTML={{ __html: itemObj.description }}></p>
+                  <span className="item-timeline-period">{ `${itemObj.start} — ${itemObj.end}` }</span>
+                  <p dangerouslySetInnerHTML={ { __html: itemObj.description } } />
                 </div>
               </li>
             ))
@@ -47,19 +47,21 @@ function Resume () {
           </h3>
         </div>
         <ul className="ul-list-timeline">
-          <li className="li-timeline-bottom-line-icon"><div></div></li>
+          <li className="li-timeline-bottom-line-icon"><div /></li>
           {
             professional.experience.map((itemObj) => (
               <li className="li-timeline-item" key={ itemObj.title }>
                 <div className="div-marker-separator">
                   <div className="div-timeline-item-marker">
-                    <div></div>
+                    <div />
                   </div>
                 </div>
                 <div className="div-timeline-item-content">
                   <h4>{ itemObj.title }</h4>
-                  <span className="item-timeline-period">{ itemObj.start } — { itemObj.end }</span>
-                  <p dangerouslySetInnerHTML={{ __html: itemObj.description }}></p>
+                  <span className="item-timeline-period">
+                    { `${itemObj.start} — ${itemObj.end}` }
+                  </span>
+                  <p dangerouslySetInnerHTML={ { __html: itemObj.description } } />
                 </div>
               </li>
             ))
