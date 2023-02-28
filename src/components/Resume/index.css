@@ -2,7 +2,6 @@
 
 .section-resume {
   color: white;
-  /* background-color: red; */
 }
 
 .timeline {
@@ -10,25 +9,24 @@
 }
 
 .div-title-img-timeline {
-  /* background-color: red; */
-  width: 100%;
-  height: 49px;
-  display: flex;
   align-items: center;
-  justify-content: flex-start;
+  display: flex;
   gap: 15px;
+  height: 49px;
+  justify-content: flex-start;
+  width: 100%;
 }
 
 .div-img-icon-education, .div-img-icon-experience {
+  align-items: center;
   background-color: #1e1e1f;
   border: 1px solid #3a3a3a;
-  width: 46px;
-  height: 46px;
   border-radius: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   box-shadow: 2px 2px 3px 1px #131314;
+  display: flex;
+  height: 46px;
+  justify-content: center;
+  width: 46px;
 }
 
 .div-img-icon-education img {
@@ -40,9 +38,9 @@
 }
 
 .h3-title-timeline {
-  font-family: 'Poppins', sans-serif;
-  font-weight: 600;
+  font-family: 'Poppins' , sans-serif;
   font-size: 24px;
+  font-weight: 600;
 }
 
 .ul-list-timeline {
@@ -54,26 +52,24 @@
 .li-timeline-bottom-line-icon {
   list-style: none;
   width: 100%;
-  /* background-color: red; */
 }
 
 .li-timeline-bottom-line-icon div {
-  width: 1px;
-  height: 30px;
   background-color: #3a3a3a;
+  height: 30px;
   margin-left: 11px;
+  width: 1px;
 }
 
 .li-timeline-item {
-  /* background-color: red; */
-  list-style: none;
-  display: flex;
-  margin-left: 11px;
   border-left: 1px solid #3a3a3a;
+  display: flex;
+  list-style: none;
+  margin-left: 11px;
   padding-bottom: 20px;
 }
 
-.li-timeline-item:nth-last-child(1) {
+.li-timeline-item:nth-last-child( 1 ) {
   border: none;
 }
 
@@ -83,58 +79,57 @@
 
 .div-timeline-item-content p {
   color: #d6d6d6;
-  font-family: 'Poppins', sans-serif;
-  font-weight: 200;
+  font-family: 'Poppins' , sans-serif;
   font-size: 15px;
-  margin-top: 5px;
+  font-weight: 200;
   margin-bottom: 0.001px;
+  margin-top: 5px;
   text-align: justify;
 }
 
 .item-timeline-period {
   color: #ceb15a;
-  font-family: 'Poppins', sans-serif;
-  font-weight: 400;
+  font-family: 'Poppins' , sans-serif;
   font-size: 15px;
+  font-weight: 400;
 }
 
 .div-timeline-item-content h4 {
-  font-family: 'Poppins', sans-serif;
-  font-weight: 600;
+  display: block;
+  font-family: 'Poppins' , sans-serif;
   font-size: 15px;
+  font-weight: 600;
   margin: 0.001px;
   margin-top: -4px;
   padding: 0.001px;
-  display: block;
 }
 
 .div-timeline-item-marker {
+  align-items: center;
   background-color: #3a3a3a;
-  width: 16px;
-  height: 16px;
-  display: inline-block;
-  margin-left: -9px;
   border-radius: 100%;
   display: flex;
+  height: 16px;
   justify-content: center;
-  align-items: center;
+  margin-left: -9px;
+  width: 16px;
 }
 
 .div-timeline-item-marker div {
   background-color: #ffdb70;
-  width: 8px;
-  height: 8px;
   border-radius: 100%;
+  height: 8px;
+  width: 8px;
 }
 
-.li-timeline-item:nth-last-child(1) .div-timeline-item-marker {
+.li-timeline-item:nth-last-child( 1 ) .div-timeline-item-marker {
   margin-left: -8px;
 }
 
 .link-ifes {
-  text-decoration: none;
   color: #1b9705;
   font-weight: 400;
+  text-decoration: none;
 }
 
 .link-ifes:hover {
