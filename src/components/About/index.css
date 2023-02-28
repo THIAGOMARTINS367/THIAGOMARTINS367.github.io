@@ -1,17 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600&display=swap');
 
 .div-about-description {
-  text-align: justify;
-  font-family: 'Poppins', sans-serif;
-  font-weight: 200;
   color: white;
-  /* background-color: red; */
+  font-family: 'Poppins' , sans-serif;
+  font-weight: 200;
+  text-align: justify;
 }
 
 .link-trybe {
-  text-decoration: none;
   color: rgb(112, 224, 0);
   font-weight: 400;
+  text-decoration: none;
 }
 
 .link-trybe:hover {
