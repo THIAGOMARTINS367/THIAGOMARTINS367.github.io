@@ -8,12 +8,12 @@
 }
 
 .link-trybe {
-  color: rgb(112, 224, 0);
+  color: #70e000;
   font-weight: 400;
   text-decoration: none;
 }
 
 .link-trybe:hover {
-  color: rgb(153, 219, 87);
+  color: #99db57;
   text-decoration: underline;
 }
