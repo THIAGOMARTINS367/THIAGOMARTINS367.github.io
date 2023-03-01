@@ -6,4 +6,10 @@ Aqui você encontrará minhas infomações de experiência, educação, currícu
 
 ## Stack's utilizadas no desenvolvimento do portifólio
 
-- `ReatJs`
+- `ReatJS`
+- `Context API`
+- `JSX`
+- `JavaScript`
+- `CSS3`
+- `ESLint`
+- `Stylelint`
