@@ -2,6 +2,8 @@
 
 Aqui você encontrará minhas infomações de experiência, educação, currículo, contatos e meus projetos.
 
+[Acesse](https://thiagomartins367.github.io) agora mesmo !
+
 ---
 
 ## Stack's utilizadas no desenvolvimento do portifólio
