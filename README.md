@@ -11,6 +11,7 @@ Aqui você encontrará minhas infomações de experiência, educação, currícu
 - `ReatJS`
 - `Context API`
 - `JSX`
+- `Docker`
 - `JavaScript`
 - `CSS3`
 - `ESLint`
