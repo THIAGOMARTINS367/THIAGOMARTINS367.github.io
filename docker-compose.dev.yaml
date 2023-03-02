@@ -1,0 +1,25 @@
+version: "3.8"
+services:
+  dev_personal_portfolio:
+    container_name: dev_personal_portfolio
+    image: dev_my-portfolio
+    build: 
+      context: .
+      target: development
+    working_dir: /usr/src/dev_app-frontend
+    restart: always
+    env_file:
+      - ./.env.development.local
+    ports:
+      - 3070:3070
+    volumes:
+      - ./src:/usr/src/dev_app-frontend/src # Mapeamento apenas para ambiente DEV
+      - "/etc/timezone:/etc/timezone:ro"
+      - "/etc/localtime:/etc/localtime:ro"
+    networks:
+      - dev_my-portfolio
+
+networks:
+  dev_my-portfolio:
+    external: false
+    name: dev_my-portfolio
