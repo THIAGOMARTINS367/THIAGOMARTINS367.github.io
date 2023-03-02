@@ -14,12 +14,19 @@
     "web-vitals": "2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "node -r dotenv/config ./node_modules/.bin/react-scripts start dotenv_config_path=.env.production.local",
+    "dev": "node -r dotenv/config ./node_modules/.bin/react-scripts start dotenv_config_path=.env.development.local",
+    "build": "node -r dotenv/config ./node_modules/.bin/react-scripts build dotenv_config_path=.env.production.local",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "lint": "eslint --no-inline-config --no-error-on-unmatched-pattern -c .eslintrc.json . --ext .js --ext .jsx",
-    "lint:styles": "npx stylelint '**/*.css' --config .stylelintrc.json --ignore-disables --allow-empty-input"
+    "lint:styles": "npx stylelint '**/*.css' --config .stylelintrc.json --ignore-disables --allow-empty-input",
+    "compose:up:dev": "docker-compose -f docker-compose.dev.yaml up -d",
+    "compose:down:dev": "docker-compose -f docker-compose.dev.yaml down --remove-orphans",
+    "compose:rm:images:dev": "docker image rm dev_my-portfolio",
+    "compose:up:prod": "docker-compose -f docker-compose.prod.yaml up -d",
+    "compose:down:prod": "docker-compose -f docker-compose.prod.yaml down --remove-orphans",
+    "compose:rm:images:prod": "docker image rm my-portfolio"
   },
   "repository": {
     "type": "git",
