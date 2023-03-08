@@ -71,7 +71,9 @@
           "Context API",
           "JSX",
           "JavaScript",
-          "CSS3"
+          "CSS3",
+          "ESLint",
+          "Stylelint"
         ],
         "repository": "https://github.com/thiagomartins367/Trybe-project-recipes-app",
         "url": "https://thiagomartins367.github.io/Trybe-project-recipes-app"
@@ -90,7 +92,8 @@
           "JSX",
           "ReactJS",
           "Context API",
-          "CSS3"
+          "CSS3",
+          "ESLint"
         ],
         "repository": "https://github.com/thiagomartins367/Trybe-project-futebol-clube",
         "url": "https://www.linkedin.com/posts/thiago-dioria-martins_desenvolvimentoweb-dev-programador-activity-6956735587718447104--Q0A?utm_source=share&utm_medium=member_desktop"
@@ -104,7 +107,9 @@
           "Context API",
           "JSX",
           "JavaScript",
-          "CSS3"
+          "CSS3",
+          "ESLint",
+          "Stylelint"
         ],
         "repository": "https://github.com/thiagomartins367/Trybe-project-starwars-planets-search",
         "url": "https://thiagomartins367.github.io/Trybe-project-starwars-planets-search"
@@ -130,6 +135,21 @@
         ],
         "repository": "https://github.com/thiagomartins367/traefik-docker/tree/thiago-martins-app-todo-list",
         "url": "https://www.linkedin.com/posts/thiago-dioria-martins_docker-infrastructure-informaertica-activity-7015760278059388928-cRVl?utm_source=share&utm_medium=member_desktop"
+      },
+      {
+        "title": "Job Insights",
+        "image": "/assets/projects-images/job-insights.png",
+        "description": null,
+        "technologies": [
+          "Python",
+          "Pytest",
+          "Flask",
+          "Docker",
+          "Flake8",
+          "Black (code formatter)"
+        ],
+        "repository": "https://github.com/thiagomartins367/Trybe-project-job-insights",
+        "url": null
       }
     ]
   }
