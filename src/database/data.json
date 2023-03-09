@@ -84,6 +84,7 @@
         "description": null,
         "technologies": [
           "NodeJS",
+          "ExpressJS",
           "TypeScript",
           "JavaScript",
           "Sequelize",
@@ -149,6 +150,24 @@
           "Black (code formatter)"
         ],
         "repository": "https://github.com/thiagomartins367/Trybe-project-job-insights",
+        "url": null
+      },
+      {
+        "title": "Car Shop",
+        "image": "/assets/projects-images/car-shop.svg",
+        "description": null,
+        "technologies": [
+          "NodeJS",
+          "ExpressJS",
+          "TypeScript",
+          "MongoDB",
+          "Mongoose",
+          "Docker",
+          "JavaScript",
+          "Jest",
+          "ESLint"
+        ],
+        "repository": "https://github.com/thiagomartins367/Trybe-project-car-shop",
         "url": null
       }
     ]
