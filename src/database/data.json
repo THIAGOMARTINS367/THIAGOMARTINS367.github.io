@@ -169,6 +169,22 @@
         ],
         "repository": "https://github.com/thiagomartins367/Trybe-project-car-shop",
         "url": null
+      },
+      {
+        "title": "Jogo de Trivia",
+        "image": "/assets/projects-images/trivia-react-redux.jpg",
+        "description": null,
+        "technologies": [
+          "ReactJS",
+          "Redux",
+          "JavaScript",
+          "JSX",
+          "CSS3",
+          "ESLint",
+          "Stylelint"
+        ],
+        "repository": "https://github.com/thiagomartins367/Trybe-project-trivia-react-redux",
+        "url": "https://thiagomartins367.github.io/Trybe-project-trivia-react-redux"
       }
     ]
   }
