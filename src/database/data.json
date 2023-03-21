@@ -88,11 +88,13 @@
           "TypeScript",
           "JavaScript",
           "Sequelize",
+          "ReactJS",
+          "MySQL",
+          "Mocha",
+          "Chai",
+          "Sinon",
           "Jest",
           "Docker",
-          "JSX",
-          "ReactJS",
-          "Context API",
           "CSS3",
           "ESLint"
         ],
@@ -185,6 +187,22 @@
         ],
         "repository": "https://github.com/thiagomartins367/Trybe-project-trivia-react-redux",
         "url": "https://thiagomartins367.github.io/Trybe-project-trivia-react-redux"
+      },
+      {
+        "title": "Trybe Wallet",
+        "image": "/assets/projects-images/trybe-wallet.svg",
+        "description": null,
+        "technologies": [
+          "ReactJS",
+          "Redux",
+          "JavaScript",
+          "JSX",
+          "CSS3",
+          "ESLint",
+          "Stylelint"
+        ],
+        "repository": "https://github.com/thiagomartins367/Trybe-project-trybewallet",
+        "url": "https://thiagomartins367.github.io/Trybe-project-trybewallet"
       }
     ]
   }
