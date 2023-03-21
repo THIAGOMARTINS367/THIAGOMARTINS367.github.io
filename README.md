@@ -1,4 +1,4 @@
-# Bem-Vindo ao meu portifólio pessoal !
+# Bem-Vindo ao meu portfólio pessoal !
 
 Aqui você encontrará minhas infomações de experiência, educação, currículo, contatos e meus projetos.
 
@@ -6,10 +6,10 @@ Aqui você encontrará minhas infomações de experiência, educação, currícu
 
 ---
 
-## Stack's utilizadas no desenvolvimento do portifólio
+## Stack's utilizadas no desenvolvimento do portfólio
 
-- `ReatJS`
-- `Context API`
+- `ReactJS`
+- `ContextAPI`
 - `JSX`
 - `Docker`
 - `JavaScript`
