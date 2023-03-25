@@ -2,6 +2,7 @@
 
 .section-resume {
   color: white;
+  display: block;
 }
 
 .timeline {
@@ -135,4 +136,56 @@
 .link-ifes:hover {
   color: #698f62;
   text-decoration: underline;
+}
+
+@media screen and (max-width: 580px) {
+  .section-resume {
+    width: auto;
+    overflow: hidden;
+  }
+
+  .h3-title-timeline {
+    font-size: 18px;
+  }
+
+  .div-title-img-timeline {
+    height: 36px;
+  }
+
+  .div-img-icon-education, .div-img-icon-experience {
+    border-radius: 7px;
+    height: 35px;
+    width: 35px;
+  }
+
+  .div-img-icon-education img {
+    width: 16px;
+  }
+
+  .div-img-icon-experience img {
+    width: 16px;
+  }
+
+  .ul-list-timeline {
+    margin: 0.001px 0.001px 10px;
+    padding: 0.001px;
+    padding-left: 7px;
+    padding-right: 5px;
+  }
+
+  .div-timeline-item-content {
+    margin-left: 27px;
+  }
+
+  .div-timeline-item-content p {
+    font-size: 14px;
+  }
+
+  .item-timeline-period {
+    font-size: 14px;
+  }
+
+  .div-timeline-item-content h4 {
+    font-size: 14px;
+  }
 }
