@@ -109,3 +109,122 @@
   height: 30px;
   width: 30px;
 }
+
+@media screen and (max-width: 580px) {
+  .aside-profile {
+    align-items: baseline;
+    margin-right: 0.001px;
+    margin-bottom: 15px;
+    padding: 15px;
+    width: auto;
+  }
+
+  .section-profile-info {
+    flex-flow: row nowrap;
+  }
+
+  .div-profile-picture {
+    border-radius: 20px;
+    height: 80px;
+    width: 80px;
+  }
+
+  .div-profile-picture img {
+    max-height: 50px;
+    max-width: 50px;
+  }
+
+  .profile-info-content {
+    margin-left: 15px;
+    align-items: flex-start;
+  }
+
+  .div-profile-name {
+    font-size: 17px;
+    margin: 0.001px 0.001px 10px;
+  }
+
+  .div-profile-title {
+    border-radius: 7px;
+    font-size: 11px;
+    padding: 3px 5px;
+    width: 100px;
+  }
+
+  .button-menu-mobile-platforms {
+    display: flex;
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    background: linear-gradient( to bottom right, hsl(0, 0%, 25%) 0%, hsla(0, 0%, 25%, 0) 50% );
+    border: none;
+    padding: 0.001px;
+    border-left: 1px solid #3a3a3a;
+    border-bottom: 1px solid #3a3a3a;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+  }
+
+  .button-menu-mobile-platforms:focus {
+    background: linear-gradient( to bottom right, hsl(45, 100%, 71%) 0%, hsla(36, 100%, 69%, 0) 50% );
+  }
+
+  .button-menu-mobile-platforms::selection {
+    border-radius: 50px;
+    background-color: red;
+  }
+
+  .button-menu-mobile-platforms img {
+    width: 15px;
+    height: 13px;
+  }
+
+  .section-profile-more-info {
+    height: 0.001%;
+    gap: 16px;
+    margin-top: 0.001px;
+    padding-top: 0.001px;
+    max-height: 1px;
+    visibility: hidden;
+    transition: 1s ease-in-out;
+  }
+
+  .transition-profile-more-info {
+    visibility: visible;
+    max-height: 347px;
+    margin-top: 16px;
+    padding-top: 16px;
+    transition: 1s ease-in-out;
+  }
+
+  .div-profile-icon {
+    visibility: hidden;
+    max-height: 0.001px;
+    transition: 0.5s ease-in-out;
+  }
+
+  .transition-profile-item-more-info {
+    max-height: 315px;
+    visibility: visible;
+    transition: 2s ease-in-out;
+  }
+
+  .div-profile-info div {
+    font-size: 11px;
+    margin-bottom: 0.001px;
+  }
+
+  .div-profile-info a {
+    font-size: 13px;
+  }
+
+  .div-img-icon img {
+    height: 28px;
+    width: 28px;
+  }
+}
