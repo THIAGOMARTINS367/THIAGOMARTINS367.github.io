@@ -73,8 +73,8 @@
 .navbar-options {
   align-items: center;
   background-color: #282829;
-  border-bottom: 1px solid #313131;
-  border-left: 1px solid #313131;
+  border-bottom: 1px solid #3a3a3a;
+  border-left: 1px solid #3a3a3a;
   border-radius: 0.001px 20px;
   border-bottom-left-radius: 20px;
   border-top-right-radius: 20px;
@@ -86,12 +86,16 @@
   position: absolute;
   right: 51px;
   top: 51px;
-  width: max-content;
+  width: 37%;
   z-index: 2;
 }
 
 .ul-list-navbar {
-  padding: 0.001px;
+  padding: 0.001px 20px;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  gap: 65px;
 }
 
 .ul-list-navbar li {
@@ -107,10 +111,53 @@
   font-family: 'Poppins' , sans-serif;
   font-size: 16px;
   font-weight: 400;
-  padding: 18px 50px;
+  padding: 20px 7px;
   width: 100%;
 }
 
 .ul-list-navbar li:nth-child( 1 ) button {
   color: #ffdb70;
+}
+
+@media screen and (max-width: 580px) {
+  .navbar-options {
+    border-top: 1px solid #3a3a3a;
+    border-right: 1px solid #3a3a3a;
+    border-bottom: none;
+    border-radius: 0.001px;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+    padding: 0.001px;
+    position: fixed;
+    top: auto;
+    bottom: 0.001px;
+    right: 0.001px;
+    left: 0.001px;
+    width: auto;
+  }
+
+  .article-main-card {
+    padding: 15px;
+    width: auto;
+    margin-bottom: 70px;
+  }
+
+  .h2-title {
+    font-size: 24px;
+  }
+
+  .bottom-hr-title {
+    height: 3px;
+    width: 30px;
+  }
+
+  .ul-list-navbar {
+    margin: 0.001px;
+    gap: 20px;
+  }
+
+  .content-render-section {
+    height: auto;
+    overflow: hidden;
+  }
 }
