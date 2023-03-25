@@ -5,3 +5,12 @@
   justify-content: space-between;
   padding: 50px;
 }
+
+@media screen and (max-width: 580px) {
+  .section-home {
+    display: block;
+    flex-flow: column nowrap;
+    height: auto;
+    padding: 15px;
+  }
+}
