@@ -3,14 +3,33 @@
   display: flex;
   height: 100vh;
   justify-content: space-between;
-  padding: 50px;
+  padding: 60px;
+  width: auto;
 }
 
-@media screen and (max-width: 580px) {
+@media screen and (max-width: 1249px) {
   .section-home {
     display: block;
     flex-flow: column nowrap;
     height: auto;
-    padding: 15px;
+    padding: 60px 34px 100px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .section-home {
+    width: 638px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .section-home {
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 579px) {
+  .section-home {
+    padding: 15px 15px 100px;
   }
 }
