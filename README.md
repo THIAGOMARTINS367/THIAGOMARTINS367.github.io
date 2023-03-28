@@ -2,7 +2,9 @@
 
 Aqui você encontrará minhas informações de experiência, educação, currículo, contatos e meus projetos.
 
-[Acesse](https://thiagomartins367.github.io) agora mesmo :globe_with_meridians:
+[:globe_with_meridians: Acesse](https://thiagomartins367.github.io) agora mesmo
+
+:calling: Disponível em todas as plataformas (Smartphones, Tablets e Desktop's)
 
 ---
 
