@@ -7,7 +7,8 @@
   width: auto;
 }
 
-@media screen and (max-width: 1249px) {
+@media screen and ( max-width : 1249px ) {
+
   .section-home {
     display: block;
     flex-flow: column nowrap;
@@ -16,19 +17,22 @@
   }
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and ( max-width : 1023px ) {
+
   .section-home {
     width: 638px;
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and ( max-width : 767px ) {
+
   .section-home {
     width: auto;
   }
 }
 
-@media screen and (max-width: 579px) {
+@media screen and ( max-width : 579px ) {
+
   .section-home {
     padding: 15px 15px 100px;
   }
