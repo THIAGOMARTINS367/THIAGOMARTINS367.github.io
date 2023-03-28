@@ -64,12 +64,12 @@
   border-top: 1px solid #3a3a3a;
   display: flex;
   flex-flow: column nowrap;
+  gap: 10px;
   height: 100%;
   justify-content: space-between;
   margin-top: 30px;
   padding-top: 30px;
   width: 100%;
-  gap: 10px;
 }
 
 .div-profile-icon {
@@ -112,11 +112,12 @@
   width: 30px;
 }
 
-@media screen and (max-width: 1249px) {
+@media screen and ( max-width : 1249px ) {
+
   .aside-profile {
     align-items: baseline;
-    margin-right: 0.001px;
     margin-bottom: 15px;
+    margin-right: 0.001px;
     padding: 15px;
     width: auto;
   }
@@ -139,8 +140,8 @@
   }
 
   .profile-info-content {
-    margin-left: 15px;
     align-items: flex-start;
+    margin-left: 15px;
   }
 
   .div-profile-name {
@@ -156,69 +157,71 @@
   }
 
   .button-menu-mobile-platforms {
-    display: flex;
-    position: absolute;
-    background: linear-gradient( to bottom right, hsl(0, 0%, 25%) 0%, hsla(0, 0%, 25%, 0) 50% );
-    border: none;
-    padding: 0.001px;
-    border-left: 1px solid #3a3a3a;
-    border-bottom: 1px solid #3a3a3a;
-    border-top-right-radius: 20px;
-    border-bottom-left-radius: 20px;
-    justify-content: center;
     align-items: center;
-    width: 118px;
-    height: 40px;
-    cursor: pointer;
+    background: linear-gradient(to bottom right,
+    hsl(0, 0%, 25%) 0%, hsla(0, 0%, 25%, 0) 50%);
+    border: none;
+    border-bottom: 1px solid #3a3a3a;
+    border-bottom-left-radius: 20px;
+    border-left: 1px solid #3a3a3a;
+    border-top-right-radius: 20px;
     color: #ffdb70;
+    cursor: pointer;
+    display: flex;
     font-family: 'Poppins' , sans-serif;
     font-size: 14px;
+    height: 40px;
+    justify-content: center;
     margin-left: 432px;
     margin-top: -75px;
+    padding: 0.001px;
+    position: absolute;
+    width: 118px;
   }
 
   .button-menu-mobile-platforms:focus {
-    background: linear-gradient( to bottom right, hsl(45, 100%, 71%) 0%, hsla(36, 100%, 69%, 0) 50% );
+    background: linear-gradient(to bottom right,
+    hsl(45, 100%, 71%) 0%, hsla(36, 100%, 69%, 0) 50%);
   }
 
   .button-menu-mobile-platforms::selection {
-    border-radius: 50px;
     background-color: red;
+    border-radius: 50px;
   }
 
   .button-menu-mobile-platforms img {
-    width: 15px;
     height: 13px;
+    width: 15px;
   }
 
   .section-profile-more-info {
-    height: 0.001%;
     gap: 16px;
+    height: 0.001%;
     margin-top: 0.001px;
-    padding-top: 0.001px;
     max-height: 1px;
-    visibility: hidden;
+    padding-top: 0.001px;
     transition: 1s ease-in-out;
+    visibility: hidden;
   }
 
   .transition-profile-more-info {
-    visibility: visible;
-    max-height: 347px;
     margin-top: 16px;
+    max-height: 347px;
     padding-top: 16px;
     transition: 1s ease-in-out;
+    visibility: visible;
   }
 
   .div-profile-icon {
-    visibility: hidden;
     max-height: 0.001px;
     transition: 0.5s ease-in-out;
+    visibility: hidden;
   }
 
   .transition-profile-item-more-info {
     max-height: 315px;
-    visibility: visible;
     transition: 2s ease-in-out;
+    visibility: visible;
   }
 
   .div-profile-info div {
@@ -240,32 +243,35 @@
 
 } */
 
-@media screen and (max-width: 1023px) {
+@media screen and ( max-width : 1023px ) {
+
   .aside-profile {
-    padding: 30px;
     margin-bottom: 30px;
+    padding: 30px;
   }
 
   .button-menu-mobile-platforms {
-    position: auto;
-    top: auto;
-    right: auto;
     margin-left: 157px;
     margin-top: -90px;
+    position: auto;
+    right: auto;
+    top: auto;
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and ( max-width : 767px ) {
+
   .button-menu-mobile-platforms {
     margin-left: auto;
     margin-top: auto;
     position: absolute;
-    top: 60px;
     right: 35px;
+    top: 60px;
   }
 }
 
-@media screen and (max-width: 579px) {
+@media screen and ( max-width : 579px ) {
+
   .aside-profile {
     margin-bottom: 15px;
     padding: 15px;
@@ -283,10 +289,10 @@
   }
 
   .button-menu-mobile-platforms {
-    top: 16px;
-    right: 16px;
-    width: 40px;
     height: 40px;
+    right: 16px;
+    top: 16px;
+    width: 40px;
   }
 
   .div-profile-name {
