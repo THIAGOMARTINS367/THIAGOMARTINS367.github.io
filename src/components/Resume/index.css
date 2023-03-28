@@ -3,6 +3,7 @@
 .section-resume {
   color: white;
   display: block;
+  width: auto;
 }
 
 .timeline {
@@ -46,7 +47,7 @@
 
 .ul-list-timeline {
   margin-top: 0.001px;
-  padding: 0.001px 30px 0.001px 15px;
+  padding: 0.001px 30px 0.001px 13px;
   z-index: 2;
 }
 
@@ -138,9 +139,44 @@
   text-decoration: underline;
 }
 
-@media screen and (max-width: 580px) {
+/* @media screen and (max-width: 1249px) {
+
+} */
+
+@media screen and (max-width: 1023px) {
+  .h3-title-timeline {
+    font-size: 24px;
+  }
+
+  .div-img-icon-education, .div-img-icon-experience {
+    border-radius: 10px;
+    height: 46px;
+    width: 46px;
+  }
+
+  .div-img-icon-education img {
+    width: 20px;
+  }
+
+  .div-img-icon-experience img {
+    width: 25px;
+  }
+
+  .div-title-img-timeline {
+    margin-top: 10px;
+  }
+
+  .div-timeline-item-content {
+    margin-left: 33px;
+  }
+}
+
+/* @media screen and (max-width: 767px) {
+
+} */
+
+@media screen and (max-width: 579px) {
   .section-resume {
-    width: auto;
     overflow: hidden;
   }
 
@@ -148,14 +184,10 @@
     font-size: 18px;
   }
 
-  .div-title-img-timeline {
-    height: 36px;
-  }
-
   .div-img-icon-education, .div-img-icon-experience {
     border-radius: 7px;
-    height: 35px;
-    width: 35px;
+    height: 30px;
+    width: 30px;
   }
 
   .div-img-icon-education img {
@@ -163,18 +195,16 @@
   }
 
   .div-img-icon-experience img {
-    width: 16px;
+    width: 20px;
   }
 
   .ul-list-timeline {
-    margin: 0.001px 0.001px 10px;
-    padding: 0.001px;
-    padding-left: 7px;
-    padding-right: 5px;
+    margin-top: -7px;
+    padding-left: 5px;
   }
 
   .div-timeline-item-content {
-    margin-left: 27px;
+    margin-left: 25px;
   }
 
   .div-timeline-item-content p {
