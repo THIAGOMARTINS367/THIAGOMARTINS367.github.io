@@ -10,7 +10,7 @@
   justify-content: stretch;
   margin-right: 30px;
   padding: 60px 30px 30px;
-  width: 26%;
+  width: max-content;
 }
 
 .section-profile-info {
@@ -68,6 +68,8 @@
   justify-content: space-between;
   margin-top: 30px;
   padding-top: 30px;
+  width: 100%;
+  gap: 10px;
 }
 
 .div-profile-icon {
@@ -110,7 +112,7 @@
   width: 30px;
 }
 
-@media screen and (max-width: 580px) {
+@media screen and (max-width: 1249px) {
   .aside-profile {
     align-items: baseline;
     margin-right: 0.001px;
@@ -121,17 +123,19 @@
 
   .section-profile-info {
     flex-flow: row nowrap;
+    justify-content: flex-start;
+    width: 100%;
   }
 
   .div-profile-picture {
-    border-radius: 20px;
-    height: 80px;
-    width: 80px;
+    border-radius: 30px;
+    height: 120px;
+    width: 120px;
   }
 
   .div-profile-picture img {
-    max-height: 50px;
-    max-width: 50px;
+    max-height: 80px;
+    max-width: 80px;
   }
 
   .profile-info-content {
@@ -140,22 +144,20 @@
   }
 
   .div-profile-name {
-    font-size: 17px;
-    margin: 0.001px 0.001px 10px;
+    font-size: 26px;
+    margin-bottom: 15px;
   }
 
   .div-profile-title {
     border-radius: 7px;
-    font-size: 11px;
-    padding: 3px 5px;
-    width: 100px;
+    font-size: 12px;
+    padding: 5px 18px;
+    width: auto;
   }
 
   .button-menu-mobile-platforms {
     display: flex;
     position: absolute;
-    top: 16px;
-    right: 16px;
     background: linear-gradient( to bottom right, hsl(0, 0%, 25%) 0%, hsla(0, 0%, 25%, 0) 50% );
     border: none;
     padding: 0.001px;
@@ -165,9 +167,14 @@
     border-bottom-left-radius: 20px;
     justify-content: center;
     align-items: center;
-    width: 40px;
+    width: 118px;
     height: 40px;
     cursor: pointer;
+    color: #ffdb70;
+    font-family: 'Poppins' , sans-serif;
+    font-size: 14px;
+    margin-left: 432px;
+    margin-top: -75px;
   }
 
   .button-menu-mobile-platforms:focus {
@@ -226,5 +233,69 @@
   .div-img-icon img {
     height: 28px;
     width: 28px;
+  }
+}
+
+/* @media screen and (max-width: 1249px) {
+
+} */
+
+@media screen and (max-width: 1023px) {
+  .aside-profile {
+    padding: 30px;
+    margin-bottom: 30px;
+  }
+
+  .button-menu-mobile-platforms {
+    position: auto;
+    top: auto;
+    right: auto;
+    margin-left: 157px;
+    margin-top: -90px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .button-menu-mobile-platforms {
+    margin-left: auto;
+    margin-top: auto;
+    position: absolute;
+    top: 60px;
+    right: 35px;
+  }
+}
+
+@media screen and (max-width: 579px) {
+  .aside-profile {
+    margin-bottom: 15px;
+    padding: 15px;
+  }
+
+  .div-profile-picture {
+    border-radius: 20px;
+    height: 80px;
+    width: 80px;
+  }
+
+  .div-profile-picture img {
+    max-height: 50px;
+    max-width: 50px;
+  }
+
+  .button-menu-mobile-platforms {
+    top: 16px;
+    right: 16px;
+    width: 40px;
+    height: 40px;
+  }
+
+  .div-profile-name {
+    font-size: 17px;
+    margin: 0.001px 0.001px 10px;
+  }
+
+  .div-profile-title {
+    font-size: 11px;
+    padding: 3px 12px;
   }
 }
