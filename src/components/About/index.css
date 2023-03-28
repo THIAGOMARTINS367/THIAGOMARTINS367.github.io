@@ -2,15 +2,15 @@
 
 .section-about {
   display: block;
-  width: auto;
   height: auto;
+  width: auto;
 }
 
 .div-about-description {
   color: white;
   font-family: 'Poppins' , sans-serif;
-  font-weight: 200;
   font-size: 15px;
+  font-weight: 200;
   text-align: justify;
 }
 
