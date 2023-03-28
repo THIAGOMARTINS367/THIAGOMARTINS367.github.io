@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { FIVE_HUNDRED, FIVE_HUNDRED_EIGHTY } from '../../constants';
+import { FIVE_HUNDRED, FIVE_HUNDRED_EIGHTY, TWELVE_FORTY_NINE } from '../../constants';
 import data from '../../database/data.json';
 import './index.css';
 
@@ -7,11 +7,14 @@ function Profile() {
   const { profile } = data;
   const [mobileScreen, setMobileScreen] = useState(false);
   const [displayMobileMenu, setDisplayMobileMenu] = useState(false);
+  const [displayMobileMoreInfo, setDisplayMobileMoreInfo] = useState(false);
   const [profileTransitionMoreInfo, setProfileTransitionMoreInfo] = useState('');
   const [profileItemTransitionMoreInfo, setProfileItemTransitionMoreInfo] = useState('');
 
   useEffect(() => {
-    setMobileScreen(window.innerWidth <= FIVE_HUNDRED_EIGHTY);
+    const windowWidth = window.innerWidth;
+    setMobileScreen(windowWidth <= TWELVE_FORTY_NINE);
+    setDisplayMobileMoreInfo(windowWidth >= FIVE_HUNDRED_EIGHTY);
   }, []);
 
   const defineTransitionClasses = () => {
@@ -52,7 +55,13 @@ function Profile() {
                   setDisplayMobileMenu(!displayMobileMenu);
                 } }
               >
-                <img src="/assets/down-arrow-menu.svg" alt="More Info" />
+                {
+                  displayMobileMoreInfo ? (
+                    <span>More Info</span>
+                  ) : (
+                    <img src="/assets/down-arrow-menu.svg" alt="More Info" />
+                  )
+                }
               </button>
             </div>)
         }
