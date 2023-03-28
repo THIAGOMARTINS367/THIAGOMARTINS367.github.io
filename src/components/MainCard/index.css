@@ -6,8 +6,9 @@
   border-radius: 20px;
   box-shadow: 0.001px 3px 5px 2px black;
   display: block;
+  max-width: 838px;
   padding: 30px;
-  width: 100%;
+  width: auto;
   z-index: 1;
 }
 
@@ -27,9 +28,10 @@
 }
 
 .content-render-section {
-  height: 90.5%;
+  box-sizing: border-box;
+  height: calc(100% - 55px);
   overflow-x: hidden;
-  overflow-y: auto;
+  overflow-y: scroll;
 }
 
 .content-render-section::-webkit-scrollbar {
@@ -72,34 +74,25 @@
 
 .navbar-options {
   align-items: center;
-  background-color: #282829;
-  border-bottom: 1px solid #313131;
-  border-left: 1px solid #313131;
+  backdrop-filter: blur(8px);
+  background: rgba(40, 40, 41, 0.7);
+  border-bottom: 1px solid #3a3a3a;
+  border-left: 1px solid #3a3a3a;
   border-radius: 0.001px 20px;
   border-bottom-left-radius: 20px;
   border-top-right-radius: 20px;
   bottom: auto;
   display: flex;
+  gap: 65px;
   height: 60px;
   justify-content: center;
-  padding: 0.001px 20px;
-  position: absolute;
-  right: 51px;
-  top: 51px;
-  width: max-content;
-  z-index: 2;
+  margin-right: -30px;
+  margin-top: -30px;
+  padding: 0.001px 50px;
+  width: 50%;
 }
 
-.ul-list-navbar {
-  padding: 0.001px;
-}
-
-.ul-list-navbar li {
-  display: inline-block;
-  list-style: none;
-}
-
-.ul-list-navbar button {
+.navbar-options button {
   background-color: transparent;
   border: none;
   color: white;
@@ -107,10 +100,56 @@
   font-family: 'Poppins' , sans-serif;
   font-size: 16px;
   font-weight: 400;
-  padding: 18px 50px;
+  padding: 20px 7px;
   width: 100%;
 }
 
-.ul-list-navbar li:nth-child( 1 ) button {
+.navbar-options div:nth-child( 1 ) button {
   color: #ffdb70;
 }
+
+@media screen and ( max-width : 1249px ) {
+
+  .navbar-options {
+    border-bottom: none;
+    border-radius: 0.001px;
+    border-right: 1px solid #3a3a3a;
+    border-top: 1px solid #3a3a3a;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+    bottom: 0.001px;
+    left: 0.001px;
+    padding: 0.001px;
+    position: fixed;
+    right: 0.001px;
+    top: auto;
+    width: 100%;
+  }
+}
+
+/* @media screen and (max-width: 1023px) {
+
+} */
+
+/* @media screen and (max-width: 767px) {
+
+} */
+
+@media screen and ( max-width : 579px ) {
+
+  .article-main-card {
+    padding: 16px;
+  }
+
+  .h2-title {
+    font-size: 24px;
+  }
+
+  .content-render-section {
+    overflow: hidden;
+  }
+}
+
+/* @media screen and (max-width: 412px) {
+
+} */

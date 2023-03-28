@@ -13,7 +13,7 @@ function MainCard() {
 
   useEffect(() => {
     setTimeout(() => setAnimationClass(''), FIVE_HUNDRED);
-    const initialOption = document.getElementById('li-about-button');
+    const initialOption = document.getElementById('div-about-button');
     setOptionSelected(initialOption);
   }, []);
 
@@ -27,11 +27,11 @@ function MainCard() {
 
   const displaySelectedNavbarOption = () => {
     switch (optionSelected.id) {
-    case 'li-about-button':
+    case 'div-about-button':
       return <About />;
-    case 'li-resume-button':
+    case 'div-resume-button':
       return <Resume />;
-    case 'li-projects-button':
+    case 'div-projects-button':
       return <Projects />;
     default:
       return null;
@@ -39,53 +39,49 @@ function MainCard() {
   };
 
   return (
-    <>
-      <nav className="navbar-options">
-        <ul className="ul-list-navbar">
-          <li>
+    <article className={ `article-main-card ${animationClass}` }>
+      <section className="section-nav-options-title">
+        <h2 className="h2-title">
+          { optionSelected.attributes.value.value }
+          <hr className="bottom-hr-title" />
+        </h2>
+        <nav className="navbar-options">
+          <div>
             <button
-              id="li-about-button"
+              id="div-about-button"
               value="About Me"
               onClick={ changeSelectedNavbarOption }
             >
               About
             </button>
-          </li>
+          </div>
 
-          <li>
+          <div>
             <button
-              id="li-resume-button"
+              id="div-resume-button"
               value="Resume"
               onClick={ changeSelectedNavbarOption }
             >
               Resume
             </button>
-          </li>
+          </div>
 
-          <li>
+          <div>
             <button
-              id="li-projects-button"
+              id="div-projects-button"
               value="Projects"
               onClick={ changeSelectedNavbarOption }
             >
               Projects
             </button>
-          </li>
-        </ul>
-      </nav>
-      <article className={ `article-main-card ${animationClass}` }>
-        <section className="section-nav-options-title">
-          <h2 className="h2-title">
-            { optionSelected.attributes.value.value }
-            <hr className="bottom-hr-title" />
-          </h2>
-        </section>
+          </div>
+        </nav>
+      </section>
 
-        <section className="content-render-section">
-          { displaySelectedNavbarOption() }
-        </section>
-      </article>
-    </>
+      <section className="content-render-section">
+        { displaySelectedNavbarOption() }
+      </section>
+    </article>
   );
 }
 

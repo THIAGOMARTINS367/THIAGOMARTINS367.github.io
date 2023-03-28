@@ -10,7 +10,7 @@
   justify-content: stretch;
   margin-right: 30px;
   padding: 60px 30px 30px;
-  width: 26%;
+  width: max-content;
 }
 
 .section-profile-info {
@@ -64,10 +64,12 @@
   border-top: 1px solid #3a3a3a;
   display: flex;
   flex-flow: column nowrap;
+  gap: 10px;
   height: 100%;
   justify-content: space-between;
   margin-top: 30px;
   padding-top: 30px;
+  width: 100%;
 }
 
 .div-profile-icon {
@@ -108,4 +110,198 @@
 .div-img-icon img {
   height: 30px;
   width: 30px;
+}
+
+@media screen and ( max-width : 1249px ) {
+
+  .aside-profile {
+    align-items: baseline;
+    margin-bottom: 15px;
+    margin-right: 0.001px;
+    padding: 15px;
+    width: auto;
+  }
+
+  .section-profile-info {
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    width: 100%;
+  }
+
+  .div-profile-picture {
+    border-radius: 30px;
+    height: 120px;
+    width: 120px;
+  }
+
+  .div-profile-picture img {
+    max-height: 80px;
+    max-width: 80px;
+  }
+
+  .profile-info-content {
+    align-items: flex-start;
+    margin-left: 15px;
+  }
+
+  .div-profile-name {
+    font-size: 26px;
+    margin-bottom: 15px;
+  }
+
+  .div-profile-title {
+    border-radius: 7px;
+    font-size: 12px;
+    padding: 5px 18px;
+    width: auto;
+  }
+
+  .button-menu-mobile-platforms {
+    align-items: center;
+    background: linear-gradient(to bottom right,
+    hsl(0, 0%, 25%) 0%, hsla(0, 0%, 25%, 0) 50%);
+    border: none;
+    border-bottom: 1px solid #3a3a3a;
+    border-bottom-left-radius: 20px;
+    border-left: 1px solid #3a3a3a;
+    border-top-right-radius: 20px;
+    color: #ffdb70;
+    cursor: pointer;
+    display: flex;
+    font-family: 'Poppins' , sans-serif;
+    font-size: 14px;
+    height: 40px;
+    justify-content: center;
+    margin-left: 432px;
+    margin-top: -75px;
+    padding: 0.001px;
+    position: absolute;
+    width: 118px;
+  }
+
+  .button-menu-mobile-platforms:focus {
+    background: linear-gradient(to bottom right,
+    hsl(45, 100%, 71%) 0%, hsla(36, 100%, 69%, 0) 50%);
+  }
+
+  .button-menu-mobile-platforms::selection {
+    background-color: red;
+    border-radius: 50px;
+  }
+
+  .button-menu-mobile-platforms img {
+    height: 13px;
+    width: 15px;
+  }
+
+  .section-profile-more-info {
+    gap: 16px;
+    height: 0.001%;
+    margin-top: 0.001px;
+    max-height: 1px;
+    padding-top: 0.001px;
+    transition: 1s ease-in-out;
+    visibility: hidden;
+  }
+
+  .transition-profile-more-info {
+    margin-top: 16px;
+    max-height: 347px;
+    padding-top: 16px;
+    transition: 1s ease-in-out;
+    visibility: visible;
+  }
+
+  .div-profile-icon {
+    max-height: 0.001px;
+    transition: 0.5s ease-in-out;
+    visibility: hidden;
+  }
+
+  .transition-profile-item-more-info {
+    max-height: 315px;
+    transition: 2s ease-in-out;
+    visibility: visible;
+  }
+
+  .div-profile-info div {
+    font-size: 11px;
+    margin-bottom: 0.001px;
+  }
+
+  .div-profile-info a {
+    font-size: 13px;
+  }
+
+  .div-img-icon img {
+    height: 28px;
+    width: 28px;
+  }
+}
+
+/* @media screen and (max-width: 1249px) {
+
+} */
+
+@media screen and ( max-width : 1023px ) {
+
+  .aside-profile {
+    margin-bottom: 30px;
+    padding: 30px;
+  }
+
+  .button-menu-mobile-platforms {
+    margin-left: 157px;
+    margin-top: -90px;
+    position: auto;
+    right: auto;
+    top: auto;
+  }
+}
+
+@media screen and ( max-width : 767px ) {
+
+  .button-menu-mobile-platforms {
+    margin-left: auto;
+    margin-top: auto;
+    position: absolute;
+    right: 35px;
+    top: 60px;
+  }
+}
+
+@media screen and ( max-width : 579px ) {
+
+  .aside-profile {
+    margin-bottom: 15px;
+    padding: 15px;
+  }
+
+  .div-profile-picture {
+    border-radius: 20px;
+    height: 80px;
+    width: 80px;
+  }
+
+  .div-profile-picture img {
+    max-height: 50px;
+    max-width: 50px;
+  }
+
+  .button-menu-mobile-platforms {
+    height: 40px;
+    right: 16px;
+    top: 16px;
+    width: 40px;
+  }
+
+  .div-profile-name {
+    font-size: 17px;
+    margin: 0.001px 0.001px 10px;
+  }
+
+  .div-profile-title {
+    font-size: 11px;
+    padding: 3px 12px;
+  }
 }

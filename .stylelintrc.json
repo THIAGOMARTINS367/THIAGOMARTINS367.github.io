@@ -38,7 +38,7 @@
     "font-family-no-missing-generic-family-keyword": true,
     "font-weight-notation": "numeric",
     "function-calc-no-unspaced-operator": true,
-    "function-comma-space-after": "always",
+    "function-comma-space-after": "always-single-line",
     "function-comma-space-before": "never",
     "function-linear-gradient-no-nonstandard-direction": true,
     "function-max-empty-lines": 0,

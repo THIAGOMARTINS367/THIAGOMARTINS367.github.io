@@ -1,8 +1,35 @@
+import { useEffect, useState } from 'react';
+import { FIVE_HUNDRED, FIVE_HUNDRED_EIGHTY, TWELVE_FORTY_NINE } from '../../constants';
 import data from '../../database/data.json';
 import './index.css';
 
 function Profile() {
   const { profile } = data;
+  const [mobileScreen, setMobileScreen] = useState(false);
+  const [displayMobileMenu, setDisplayMobileMenu] = useState(false);
+  const [displayMobileMoreInfo, setDisplayMobileMoreInfo] = useState(false);
+  const [profileTransitionMoreInfo, setProfileTransitionMoreInfo] = useState('');
+  const [profileItemTransitionMoreInfo, setProfileItemTransitionMoreInfo] = useState('');
+
+  useEffect(() => {
+    const windowWidth = window.innerWidth;
+    setMobileScreen(windowWidth <= TWELVE_FORTY_NINE);
+    setDisplayMobileMoreInfo(windowWidth >= FIVE_HUNDRED_EIGHTY);
+  }, []);
+
+  const defineTransitionClasses = () => {
+    if (profileTransitionMoreInfo.length === 0) {
+      setProfileTransitionMoreInfo('transition-profile-more-info');
+      setTimeout(
+        () => setProfileItemTransitionMoreInfo('transition-profile-item-more-info'),
+        FIVE_HUNDRED,
+      );
+    } else {
+      setProfileTransitionMoreInfo('');
+      setProfileItemTransitionMoreInfo('');
+    }
+  };
+
   return (
     <aside className="aside-profile">
       <section className="section-profile-info">
@@ -17,12 +44,36 @@ function Profile() {
             { profile.title }
           </div>
         </div>
+        {
+          mobileScreen && (
+            <div>
+              <button
+                type="button"
+                className="button-menu-mobile-platforms"
+                onClick={ () => {
+                  defineTransitionClasses();
+                  setDisplayMobileMenu(!displayMobileMenu);
+                } }
+              >
+                {
+                  displayMobileMoreInfo ? (
+                    <span>More Info</span>
+                  ) : (
+                    <img src="/assets/down-arrow-menu.svg" alt="More Info" />
+                  )
+                }
+              </button>
+            </div>)
+        }
       </section>
 
-      <section className="section-profile-more-info">
+      <section className={ `section-profile-more-info ${profileTransitionMoreInfo}` }>
         {
           profile.contacts.map((contactObj) => (
-            <div key={ contactObj.name } className="div-profile-icon">
+            <div
+              key={ contactObj.name }
+              className={ `div-profile-icon ${profileItemTransitionMoreInfo}` }
+            >
               <a href={ contactObj.url } target="_blank" rel="noreferrer">
                 <div className="div-img-icon">
                   <img
@@ -45,7 +96,10 @@ function Profile() {
         }
         {
           profile.otherInformations.map((contactObj) => (
-            <div key={ contactObj.name } className="div-profile-icon">
+            <div
+              key={ contactObj.name }
+              className={ `div-profile-icon ${profileItemTransitionMoreInfo}` }
+            >
               <a href={ contactObj.url } target="_self" rel="noreferrer">
                 <div className="div-img-icon">
                   <img
