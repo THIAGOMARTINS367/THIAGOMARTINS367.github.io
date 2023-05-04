@@ -39,49 +39,51 @@ function MainCard() {
   };
 
   return (
-    <article className={ `article-main-card ${animationClass}` }>
-      <section className="section-nav-options-title">
-        <h2 className="h2-title">
-          { optionSelected.attributes.value.value }
-          <hr className="bottom-hr-title" />
-        </h2>
-        <nav className="navbar-options">
-          <div>
-            <button
-              id="div-about-button"
-              value="About Me"
-              onClick={ changeSelectedNavbarOption }
-            >
-              About
-            </button>
-          </div>
+    <>
+      <nav className="navbar-options">
+        <div>
+          <button
+            id="div-about-button"
+            value="About Me"
+            onClick={ changeSelectedNavbarOption }
+          >
+            About
+          </button>
+        </div>
 
-          <div>
-            <button
-              id="div-resume-button"
-              value="Resume"
-              onClick={ changeSelectedNavbarOption }
-            >
-              Resume
-            </button>
-          </div>
+        <div>
+          <button
+            id="div-resume-button"
+            value="Resume"
+            onClick={ changeSelectedNavbarOption }
+          >
+            Resume
+          </button>
+        </div>
 
-          <div>
-            <button
-              id="div-projects-button"
-              value="Projects"
-              onClick={ changeSelectedNavbarOption }
-            >
-              Projects
-            </button>
-          </div>
-        </nav>
-      </section>
+        <div>
+          <button
+            id="div-projects-button"
+            value="Projects"
+            onClick={ changeSelectedNavbarOption }
+          >
+            Projects
+          </button>
+        </div>
+      </nav>
+      <article className={ `article-main-card ${animationClass}` }>
+        <section className="section-nav-options-title">
+          <h2 className="h2-title">
+            { optionSelected.attributes.value.value }
+            <hr className="bottom-hr-title" />
+          </h2>
+        </section>
 
-      <section className="content-render-section">
-        { displaySelectedNavbarOption() }
-      </section>
-    </article>
+        <section className="content-render-section">
+          { displaySelectedNavbarOption() }
+        </section>
+      </article>
+    </>
   );
 }
 
