@@ -108,6 +108,17 @@
   color: #ffdb70;
 }
 
+@media screen and ( max-width : 5000px ) {
+
+  .navbar-options {
+    position: absolute;
+    right: 91px;
+    top: 91px;
+    width: 30%;
+    z-index: 2;
+  }
+}
+
 @media screen and ( max-width : 1249px ) {
 
   .navbar-options {
