@@ -4,6 +4,7 @@
   height: 100vh;
   justify-content: space-between;
   padding: 60px;
+  position: relative;
   width: auto;
 }
 
