@@ -68,7 +68,7 @@
   display: flex;
   list-style: none;
   margin-left: 11px;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
 }
 
 .li-timeline-item:nth-last-child( 1 ) {
@@ -80,13 +80,17 @@
 }
 
 .div-timeline-item-content p {
-  color: #d6d6d6;
+  color: white;
   font-family: 'Poppins' , sans-serif;
   font-size: 15px;
   font-weight: 200;
   margin-bottom: 0.001px;
-  margin-top: 5px;
+  margin-top: 10px;
   text-align: justify;
+}
+
+.div-timeline-item-content p:nth-child( 3 ) {
+  margin-top: 5px;
 }
 
 .item-timeline-period {
@@ -135,7 +139,18 @@
 }
 
 .link-ifes:hover {
-  color: #698f62;
+  color: #1b970585;
+  text-decoration: underline;
+}
+
+.link-coursera {
+  color: #005fe4;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.link-coursera:hover {
+  color: #005fe48a;
   text-decoration: underline;
 }
 
