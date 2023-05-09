@@ -3,8 +3,6 @@ import './index.css';
 
 function Resume() {
   const { professional } = data;
-  professional.education.sort((a, b) => b.start - a.start);
-  professional.experience.sort((a, b) => b.start - a.start);
   return (
     <section className="section-resume">
       <section className="timeline">
@@ -31,7 +29,14 @@ function Resume() {
                   <span className="item-timeline-period">
                     { `${itemObj.start} — ${itemObj.end}` }
                   </span>
-                  <p dangerouslySetInnerHTML={ { __html: itemObj.description } } />
+                  {
+                    itemObj.description.map((paragraph, index) => (
+                      <p
+                        key={ `education-description-paragraph-${index}` }
+                        dangerouslySetInnerHTML={ { __html: paragraph } }
+                      />
+                    ))
+                  }
                 </div>
               </li>
             ))
@@ -63,7 +68,14 @@ function Resume() {
                   <span className="item-timeline-period">
                     { `${itemObj.start} — ${itemObj.end}` }
                   </span>
-                  <p dangerouslySetInnerHTML={ { __html: itemObj.description } } />
+                  {
+                    itemObj.description.map((paragraph, index) => (
+                      <p
+                        key={ `experience-description-paragraph-${index}` }
+                        dangerouslySetInnerHTML={ { __html: paragraph } }
+                      />
+                    ))
+                  }
                 </div>
               </li>
             ))

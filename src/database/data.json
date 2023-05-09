@@ -16,13 +16,19 @@
         "name": "Linkedin",
         "username": "in/thiago-dioria-martins",
         "url": "https://www.linkedin.com/public-profile/in/thiago-dioria-martins",
-        "image": "/assets/linkedin-icon.svg"
+        "image": "/assets/linkedin-icon-2.svg"
       },
       {
-        "name": "Gmail",
+        "name": "Github",
+        "username": "thiagomartins367",
+        "url": "https://github.com/thiagomartins367",
+        "image": "/assets/github-icon.svg"
+      },
+      {
+        "name": "Email",
         "username": "thiago17thiago@gmail.com",
         "url": "https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=CllgCHrdkvCcBJMlzgzkXkFXcwlGpPhtSflRRQRWsCjWHwWgCPDbhxKRVwVSDbdnMnhPtMlDtnB",
-        "image": "/assets/gmail-icon.svg"
+        "image": "/assets/mail-icon.svg"
       }
     ],
     "otherInformations": [
@@ -37,24 +43,40 @@
   "professional": {
     "education" : [
       {
+        "title": "Design de User Experience (UX)",
+        "start": "mar/2023",
+        "end": "Present",
+        "description": [
+          "O programa é promovido pela <a class='link-coursera' href='https://www.coursera.org/programs/trybe-google-learning-program-hrevt?collectionId=twDTY&currentTab=CATALOG&productId=VMM1lDgkEeym8A7cXo-JEw&productType=s12n&showMiniModal=true' target='_blank'>Coursera</a> e inclui mais de 200 horas de conteúdo e centenas de atividades práticas e avaliações que simulam situações reais do design de experiência do usuário (UX), essenciais para o sucesso no local de trabalho.",
+          "Conteúdo altamente interativo e desenvolvido por funcionários do <b>Google</b> com décadas de experiência em design de UX.",
+          "Envolve o processo de design do início ao fim, incluindo: como ter empatia com os usuários; definir as dificuldades dos usuários; apresentar ideias para soluções de design; criar wireframes, maquetes e protótipos; realizar estudos de usabilidade para testar projetos; iterar designs com base em feedback; compreender Sprints de Design."
+        ]
+      },
+      {
         "title": "Desenvolvimento Web Full-Stack",
-        "start": "2021",
-        "end": "2022",
-        "description": "Formação em desenvolvimento web full-stack na <a class='link-trybe' href='https://www.betrybe.com/formacao-desenvolvimento-web' target='_blank'>Trybe</a> com período total de 1.500 horas de conteúdos práticos, +30 projetos desenvolvidos em grupo e individualmente aplicando em conjunto metodologias ágeis e habilidades comportamentais (Soft-Skills)."
+        "start": "set/2021",
+        "end": "out/2022",
+        "description": [
+          "Formação em desenvolvimento web full-stack na <a class='link-trybe' href='https://www.betrybe.com/formacao-desenvolvimento-web' target='_blank'>Trybe</a> com período total de 1.500 horas de conteúdos práticos, +30 projetos desenvolvidos em time e individualmente aplicando em conjunto metodologias ágeis e habilidades comportamentais (Soft-Skills)."
+        ]
       },
       {
         "title": "Técnico em Informática",
-        "start": "2019",
-        "end": "2022",
-        "description": "Formação em técnico de informática no <a class='link-ifes' href='https://cachoeiro.ifes.edu.br/cursos/tecnicos/informatica' target='_blank'>Instituto Federal do Espírito Santo</a> com período total de 1.200 horas."
+        "start": "jul/2019",
+        "end": "dez/2022",
+        "description": [
+          "Formação em técnico de informática no <a class='link-ifes' href='https://cachoeiro.ifes.edu.br/cursos/tecnicos/informatica' target='_blank'>Instituto Federal do Espírito Santo</a> com período total de 1.200 horas."
+        ]
       }
     ],
     "experience": [
       {
         "title": "Pessoa Estudante",
-        "start": "2021",
-        "end": "2022",
-        "description": "Estudante de desenvolvimento web full-stack na <a class='link-trybe' href='https://www.betrybe.com/formacao-desenvolvimento-web' target='_blank'>Trybe</a> aplicando na prática o aprendizado adquirido, desenvolvendo projetos em grupo e individualmente, mantendo sempre uma conduta de mercado com foco em resultado, qualidade, soft-skills e metodologias ágeis."
+        "start": "set/2021",
+        "end": "out/2022",
+        "description": [
+          "Estudante de desenvolvimento web full-stack na <a class='link-trybe' href='https://www.betrybe.com/formacao-desenvolvimento-web' target='_blank'>Trybe</a> aplicando na prática o aprendizado adquirido, desenvolvendo projetos em time e individualmente, mantendo sempre uma conduta de mercado com foco em resultado, qualidade, soft-skills e metodologias ágeis."
+        ]
       }
     ]
   },
