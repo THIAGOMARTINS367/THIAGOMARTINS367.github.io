@@ -1,34 +1,34 @@
 a {
-  text-decoration: none;
   color: inherit;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .skill {
+  align-items: center;
+  background-color: #202022;
+  border: 1px solid #3a3a3a;
+  border-radius: 10px;
+  box-shadow: 2px 2px 3px 1px #131314;
+  display: flex;
+  flex-flow: column nowrap;
   font-family: 'Poppins' , sans-serif;
   font-size: 15px;
   font-weight: 600;
-  width: 90px;
   height: 90px;
-  background-color: #202022;
-  border: 1px solid #3a3a3a;
-  box-shadow: 2px 2px 3px 1px #131314;
-  display: flex;
   justify-content: space-evenly;
-  align-items: center;
-  flex-flow: column nowrap;
-  border-radius: 10px;
   padding: 5px;
+  width: 90px;
 }
 
 .skill:hover {
-  transform: scale(1.05);
   box-shadow: 0.001px 0.001px 5px #ffdb70;
+  transform: scale(1.05);
 }
 
 .skill-img {
-  width: 60px;
   height: 60px;
+  width: 60px;
 }
 
 @media screen and ( max-width : 579px ) {
