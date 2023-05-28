@@ -78,6 +78,128 @@
           "Estudante de desenvolvimento web full-stack na <a class='link-trybe' href='https://www.betrybe.com/formacao-desenvolvimento-web' target='_blank'>Trybe</a> aplicando na prática o aprendizado adquirido, desenvolvendo projetos em time e individualmente, mantendo sempre uma conduta de mercado com foco em resultado, qualidade, soft-skills e metodologias ágeis."
         ]
       }
+    ],
+    "skills": [
+      {
+        "title": "NodeJS",
+        "image": "https://www.svgrepo.com/show/303266/nodejs-icon-logo.svg",
+        "imageAltText": "node js",
+        "redirectLink": "https://nodejs.org/pt-br/about"
+      },
+      {
+        "title": "Express",
+        "image": "https://www.svgrepo.com/show/330398/express.svg",
+        "imageAltText": "express",
+        "redirectLink": "https://expressjs.com/pt-br"
+      },
+      {
+        "title": "ReactJS",
+        "image": "https://www.svgrepo.com/show/354259/react.svg",
+        "imageAltText": "react js",
+        "redirectLink": "https://pt-br.react.dev"
+      },
+      {
+        "title": "Redux",
+        "image": "https://www.svgrepo.com/show/452093/redux.svg",
+        "imageAltText": "redux",
+        "redirectLink": "https://redux.js.org"
+      },
+      {
+        "title": "Docker",
+        "image": "https://www.svgrepo.com/show/354926/docker.svg",
+        "imageAltText": "docker",
+        "redirectLink": "https://www.docker.com"
+      },
+      {
+        "title": "HTML",
+        "image": "https://www.svgrepo.com/show/452228/html-5.svg",
+        "imageAltText": "html",
+        "redirectLink": "https://developer.mozilla.org/pt-BR/docs/Web/HTML"
+      },
+      {
+        "title": "CSS",
+        "image": "https://www.svgrepo.com/show/373535/css.svg",
+        "imageAltText": "css",
+        "redirectLink": "https://developer.mozilla.org/pt-BR/docs/Web/CSS"
+      },
+      {
+        "title": "JavaScript",
+        "image": "https://www.svgrepo.com/show/353925/javascript.svg",
+        "imageAltText": "javascript",
+        "redirectLink": "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript"
+      },
+      {
+        "title": "TypeScript",
+        "image": "https://www.svgrepo.com/show/354478/typescript-icon.svg",
+        "imageAltText": "typeScript",
+        "redirectLink": "https://www.typescriptlang.org/pt"
+      },
+      {
+        "title": "Python",
+        "image": "https://www.svgrepo.com/show/452091/python.svg",
+        "imageAltText": "python",
+        "redirectLink": "https://www.python.org/about"
+      },
+      {
+        "title": "MySQL",
+        "image": "https://www.svgrepo.com/show/355133/mysql.svg",
+        "imageAltText": "mysql",
+        "redirectLink": "https://www.mysql.com"
+      },
+      {
+        "title": "Sequelize",
+        "image": "https://www.svgrepo.com/show/354333/sequelize.svg",
+        "imageAltText": "sequelize",
+        "redirectLink": "https://sequelize.org"
+      },
+      {
+        "title": "MongoDB",
+        "image": "https://www.svgrepo.com/show/373845/mongo.svg",
+        "imageAltText": "mongodb",
+        "redirectLink": "https://www.mongodb.com/pt-br"
+      },
+      {
+        "title": "Mongoose",
+        "image": "https://avatars.githubusercontent.com/u/7552965?s=200&v=4",
+        "imageAltText": "mongoose",
+        "redirectLink": "https://mongoosejs.com"
+      },
+      {
+        "title": "Jest",
+        "image": "https://www.svgrepo.com/show/373700/jest.svg",
+        "imageAltText": "jest",
+        "redirectLink": "https://jestjs.io/pt-BR"
+      },
+      {
+        "title": "RTL",
+        "image": "https://testing-library.com/img/logo-large.png",
+        "imageAltText": "React Testing Library",
+        "redirectLink": "https://testing-library.com/docs/react-testing-library/intro"
+      },
+      {
+        "title": "Mocha",
+        "image": "https://www.svgrepo.com/show/354079/mocha.svg",
+        "imageAltText": "mocha",
+        "redirectLink": "https://mochajs.org"
+      },
+      {
+        "title": "Chai",
+        "image": "https://www.svgrepo.com/show/353546/chai.svg",
+        "imageAltText": "chai",
+        "redirectLink": "https://www.chaijs.com"
+      },
+      {
+        "title": "Git",
+        "image": "https://www.svgrepo.com/show/452210/git.svg",
+        "imageAltText": "git",
+        "redirectLink": "https://git-scm.com"
+      },
+      {
+        "title": "GitHub",
+        "image": "https://www.svgrepo.com/show/353783/github-octocat.svg",
+        "imageAltText": "github",
+        "redirectLink": "https://docs.github.com/pt/get-started/quickstart/hello-world"
+      }
     ]
   },
   "projectsSection": {

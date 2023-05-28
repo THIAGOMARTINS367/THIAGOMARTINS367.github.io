@@ -1,3 +1,4 @@
+import SmallCard from '../SmallCard';
 import data from '../../database/data.json';
 import './index.css';
 
@@ -81,6 +82,25 @@ function Resume() {
             ))
           }
         </ul>
+      </section>
+
+      <section className="section-skills">
+        <h3>
+          Minhas Skills
+        </h3>
+        <section className="section-skills-content">
+          {
+            professional.skills.map(({ title, image, imageAltText, redirectLink }) => (
+              <SmallCard
+                key={ `${title}-${image}` }
+                cardTitle={ title }
+                imagePath={ image }
+                imageAltText={ imageAltText }
+                redirectLink={ redirectLink }
+              />
+            ))
+          }
+        </section>
       </section>
     </section>
   );
