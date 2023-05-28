@@ -155,8 +155,8 @@
 }
 
 .section-skills {
-  padding-right: 30px;
   margin-bottom: 30px;
+  padding-right: 30px;
 }
 
 .section-skills h3 {
@@ -167,15 +167,15 @@
 }
 
 .section-skills-content {
+  align-items: center;
   background-color: #202022;
   border: 1px solid #3a3a3a;
   border-radius: 10px;
   display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  padding: 20px;
-  gap: 20px;
   flex-flow: row wrap;
+  gap: 20px;
+  justify-content: space-evenly;
+  padding: 20px;
 }
 
 /* @media screen and (max-width: 1249px) {
