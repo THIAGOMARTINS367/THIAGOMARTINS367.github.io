@@ -12,7 +12,7 @@ function Resume() {
             <img src="/assets/stacked-book.svg" alt="stacked-book.svg" />
           </div>
           <h3 className="h3-title-timeline">
-            Education
+            Educação
           </h3>
         </div>
         <ul className="ul-list-timeline">
@@ -51,7 +51,7 @@ function Resume() {
             <img src="/assets/user-settings.svg" alt="user-settings.svg" />
           </div>
           <h3 className="h3-title-timeline">
-            Experience
+            Experiência
           </h3>
         </div>
         <ul className="ul-list-timeline">
