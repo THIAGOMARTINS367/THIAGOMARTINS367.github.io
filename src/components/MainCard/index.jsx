@@ -44,30 +44,30 @@ function MainCard() {
         <div>
           <button
             id="div-about-button"
-            value="About Me"
+            value="Sobre Mim"
             onClick={ changeSelectedNavbarOption }
           >
-            About
+            Sobre
           </button>
         </div>
 
         <div>
           <button
             id="div-resume-button"
-            value="Resume"
+            value="Resumo"
             onClick={ changeSelectedNavbarOption }
           >
-            Resume
+            Resumo
           </button>
         </div>
 
         <div>
           <button
             id="div-projects-button"
-            value="Projects"
+            value="Projetos"
             onClick={ changeSelectedNavbarOption }
           >
-            Projects
+            Projetos
           </button>
         </div>
       </nav>
