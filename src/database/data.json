@@ -27,7 +27,7 @@
       {
         "name": "Email",
         "username": "thiago17thiago@gmail.com",
-        "url": "https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=CllgCHrdkvCcBJMlzgzkXkFXcwlGpPhtSflRRQRWsCjWHwWgCPDbhxKRVwVSDbdnMnhPtMlDtnB",
+        "url": "mailto:thiago17thiago@gmail.com",
         "image": "/assets/mail-icon.svg"
       }
     ],
@@ -35,7 +35,7 @@
       {
         "name": "Currículo",
         "subtitle": "curriculo-thiago.pdf",
-        "url": "https://drive.google.com/u/0/uc?id=15fcSS9gDpnX9kRmLp7I6yzTQe1LLhuEI&export=download",
+        "url": "https://drive.google.com/u/0/uc?id=1dw0bAgo3dsSQvE6d3HqOcbDXfjxrSwFF&export=download",
         "image": "/assets/curriculum.svg"
       }
     ]
@@ -43,9 +43,26 @@
   "professional": {
     "education" : [
       {
+        "title": "Bootcamp: IA Generativa com AWS",
+        "start": "jan/2024",
+        "end": "fev/2024",
+        "description": [
+          "Promovido pela <a class='link-trybe' href='https://www.betrybe.com/cursos/bootcamp-gratuito-aws-ia-generativa' target='_blank'>Trybe</a> o bootcamp aborda os fundamentos da IA e demonstra como essa tecnologia, a primeira vista muito complexa, pode ser usada de forma mais facilitada utilizando as ferramentas que a <b>AWS (Amazon Web Services)</b> oferece: <i>CodeWhisperer</i>, <i>Amazon Bedrock</i>, <i>Amazon Sagemaker<i/>."
+        ]
+      },
+      {
+        "title": "Aceleração C#",
+        "start": "out/2023",
+        "end": "fev/2024",
+        "description": [
+          "Promovida pela <a class='link-trybe' href='https://www.betrybe.com' target='_blank'>Trybe</a> a aceleração aborda os fundamentos e recursos do .NET e a linguagem C#, POO com C#, ASP.NET & WebApi, LINQ, SQL Server & Entity Framework, JWT em API REST, Deployment, Microsserviços.",
+          "Todo o período de aprendizado é baseado em teoria seguida da prática nos mais diversos projetos e exercícios de fixação, a API <a class='link' href='https://github.com/thiagomartins367/Trybe-project-csharp-trybe-hotel' target='_blank'>TybeHotel</a> é o projeto mais completo e coloca em prática a maior parte do conteúdo dessa aceleração."
+        ]
+      },
+      {
         "title": "Design de User Experience (UX)",
         "start": "mar/2023",
-        "end": "Present",
+        "end": "jul/2023",
         "description": [
           "O programa é promovido pela <a class='link-coursera' href='https://www.coursera.org/programs/trybe-google-learning-program-hrevt?collectionId=twDTY&currentTab=CATALOG&productId=VMM1lDgkEeym8A7cXo-JEw&productType=s12n&showMiniModal=true' target='_blank'>Coursera</a> e inclui mais de 200 horas de conteúdo e centenas de atividades práticas e avaliações que simulam situações reais do design de experiência do usuário (UX), essenciais para o sucesso no local de trabalho.",
           "Conteúdo altamente interativo e desenvolvido por funcionários do <b>Google</b> com décadas de experiência em design de UX.",
@@ -81,10 +98,28 @@
     ],
     "skills": [
       {
+        "title": "Csharp",
+        "image": "https://www.svgrepo.com/show/452184/csharp.svg",
+        "imageAltText": "csharp",
+        "redirectLink": "https://dotnet.microsoft.com/pt-br/languages/csharp"
+      },
+      {
+        "title": "Dotnet",
+        "image": "https://www.svgrepo.com/show/376369/dotnet.svg",
+        "imageAltText": "dotnet",
+        "redirectLink": "https://dotnet.microsoft.com/pt-br/learn/dotnet/what-is-dotnet"
+      },
+      {
+        "title": "Asp.Net",
+        "image": "/assets/aspnet-logo.svg",
+        "imageAltText": "asp.net",
+        "redirectLink": "https://dotnet.microsoft.com/pt-br/learn/aspnet/what-is-aspnet-core#:~:text=ASP.NET%20Core-,Performance,-Performance%20is%20a"
+      },
+      {
         "title": "NodeJS",
         "image": "https://www.svgrepo.com/show/303266/nodejs-icon-logo.svg",
         "imageAltText": "node js",
-        "redirectLink": "https://nodejs.org/pt-br/about"
+        "redirectLink": "https://nodejs.org/en/about"
       },
       {
         "title": "Express",
@@ -153,6 +188,12 @@
         "redirectLink": "https://sequelize.org"
       },
       {
+        "title": "Entity F.",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmCO2M5Ey4-YUst5AzbLteGKTL1p-VjKC9bzcq761kOQ&s",
+        "imageAltText": "entity framework",
+        "redirectLink": "https://learn.microsoft.com/pt-br/ef/core"
+      },
+      {
         "title": "MongoDB",
         "image": "https://www.svgrepo.com/show/373845/mongo.svg",
         "imageAltText": "mongodb",
@@ -163,6 +204,12 @@
         "image": "https://avatars.githubusercontent.com/u/7552965?s=200&v=4",
         "imageAltText": "mongoose",
         "redirectLink": "https://mongoosejs.com"
+      },
+      {
+        "title": "JWT",
+        "image": "https://jwt.io/img/pic_logo.svg",
+        "imageAltText": "json web tokens",
+        "redirectLink": "https://jwt.io/introduction"
       },
       {
         "title": "Jest",
@@ -198,13 +245,64 @@
         "title": "GitHub",
         "image": "https://www.svgrepo.com/show/353783/github-octocat.svg",
         "imageAltText": "github",
-        "redirectLink": "https://docs.github.com/pt/get-started/quickstart/hello-world"
+        "redirectLink": "https://docs.github.com/pt/get-started/start-your-journey/about-github-and-git"
       }
     ]
   },
   "projectsSection": {
     "title": "Projetos",
     "projects": [
+      {
+        "title": "Trybe Hotel",
+        "image": "/assets/projects-images/trybe-hotel.jpg",
+        "description": null,
+        "technologies": [
+          ".NET",
+          "ASP.NET",
+          "C#",
+          "Docker",
+          "Github Actions",
+          "Railway"
+        ],
+        "repository": "https://github.com/thiagomartins367/Trybe-project-csharp-trybe-hotel",
+        "url": "https://www.linkedin.com/posts/thiago-dioria-martins_mais-um-projetinho-da-acelera%C3%A7%C3%A3o-c-da-trybe-activity-7165835896095809536-_dcs"
+      },
+      {
+        "title": "API de Receitas",
+        "image": "/assets/projects-images/recipes-api.svg",
+        "description": null,
+        "technologies": [
+          ".NET",
+          "ASP.NET",
+          "C#",
+          "Docker"
+        ],
+        "repository": "https://github.com/thiagomartins367/Trybe-project-csharp-recipes-api",
+        "url": "https://www.linkedin.com/posts/thiago-dioria-martins_terceiro-projeto-da-acelera%C3%A7%C3%A3o-c-da-trybe-activity-7128892419961438209-L4P9"
+      },
+      {
+        "title": "Trybe Games",
+        "image": "/assets/projects-images/trybe-games.svg",
+        "description": null,
+        "technologies": [
+          ".NET",
+          "C#",
+          "Docker"
+        ],
+        "repository": "https://github.com/thiagomartins367/Trybe-project-csharp-trybe-games",
+        "url": "https://www.linkedin.com/posts/thiago-dioria-martins_quarto-projeto-da-acelera%C3%A7%C3%A3o-c-da-trybe-activity-7133180238179516416-Erzm"
+      },
+      {
+        "title": "Trybank",
+        "image": "/assets/projects-images/trybank.svg",
+        "description": null,
+        "technologies": [
+          ".NET",
+          "C#"
+        ],
+        "repository": "https://github.com/thiagomartins367/Trybe-project-csharp-trybank",
+        "url": "https://www.linkedin.com/posts/thiago-dioria-martins_primeiro-projetinho-de-c-da-nova-acelera%C3%A7%C3%A3o-activity-7121226599529652224-TQFZ"
+      },
       {
         "title": "APP de Receitas",
         "image": "/assets/projects-images/recipes-app.png",
