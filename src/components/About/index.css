@@ -24,3 +24,13 @@
   color: #70e0008f;
   text-decoration: underline;
 }
+
+.link {
+  color: blue;
+  font-weight: 400;
+  text-decoration: underline;
+}
+
+.link:hover {
+  color: rgb(113, 113, 255);
+}
