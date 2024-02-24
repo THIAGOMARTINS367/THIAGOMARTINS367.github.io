@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Portfólio - Thiago Martins",
+  "name": "Portfólio",
   "icons": [
     {
       "src": "favicon.ico",
@@ -16,6 +16,11 @@
       "src": "logo512.png",
       "type": "image/png",
       "sizes": "512x512"
+    },
+    {
+      "src": "/public/assets/thiago-martins.jpg",
+      "type": "image/jpg",
+      "sizes": "268x263"
     }
   ],
   "start_url": ".",
